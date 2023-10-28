@@ -1,0 +1,23 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro $(find iris_robot_description)/urdf/iris_robot.xacro"/>
+    
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name="world_name" value="$(find iris_robot_description)/worlds/kri_nasional.world"/>
+        <arg name="paused" value="false"/>
+        <arg name="verbose" value="false"/>
+        <arg name="use_sim_time" value="false" />
+    </include>
+
+    <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model iris_robot"/>
+
+    <!-- Spawn the necessary controllers -->
+    <node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false"
+        output="screen" ns="/" args="joint_state_controller left_motor_controller right_motor_controller rear_motor_controller"/>
+
+    <!-- Optionally, you might also want a robot state publisher and a TF broadcaster -->
+    <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"
+        respawn="false" output="screen">
+        <param name="publish_frequency" type="double" value="50.0"/>
+        <param name="tf_prefix" type="string" value=""/>
+    </node>
+</launch>

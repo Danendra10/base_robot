@@ -1,0 +1,48 @@
+<?xml version="1.0" ?>
+<robot name="iris_robot" xmlns:xacro="http://www.ros.org/wiki/xacro" >
+
+<transmission name="left_motor_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="left_motor_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="left_motor_revolute_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="rear_motor_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="rear_motor_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="rear_motor_revolute_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="right_motor_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="right_motor_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="right_motor_revolute_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="Slider 56_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="Slider 56">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="Slider 56_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+</robot>

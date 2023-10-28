@@ -1,0 +1,21 @@
+iris_robot_controller:
+  # Publish all joint states -----------------------------------
+  joint_state_controller:
+    type: joint_state_controller/JointStateController
+    publish_rate: 50
+
+  # Position Controllers --------------------------------------
+  left_motor_revolute_position_controller:
+    type: effort_controllers/JointEffortController
+    joint: left_motor_revolute
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+
+  rear_motor_revolute_position_controller:
+    type: effort_controllers/JointEffortController
+    joint: rear_motor_revolute
+    pid: {p: 100.0, i: 0.01, d: 10.0}
+    
+  right_motor_revolute_position_controller:
+    type: effort_controllers/JointEffortController
+    joint: right_motor_revolute
+    pid: {p: 100.0, i: 0.01, d: 10.0}

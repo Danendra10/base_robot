@@ -1,0 +1,15 @@
+joint_state_controller:
+  type: joint_state_controller/JointStateController
+  publish_rate: 50
+
+left_motor_controller:
+  type: effort_controllers/JointEffortController
+  joint: left_motor_revolute
+
+rear_motor_controller:
+  type: effort_controllers/JointEffortController
+  joint: rear_motor_revolute
+
+right_motor_controller:
+  type: effort_controllers/JointEffortController
+  joint: right_motor_revolute

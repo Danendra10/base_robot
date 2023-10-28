@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
     <param name="robot_description" command="$(find xacro)/xacro $(find iris_robot_description)/urdf/iris_robot.xacro"/>
-    <rosparam command="load" file="$(find iris_gazebo)/config/config.yaml"/>
+    <!-- <rosparam command="load" file="$(find iris_gazebo)/config/config.yaml"/> -->
     
     <include file="$(find gazebo_ros)/launch/empty_world.launch">
         <arg name="world_name" value="$(find iris_gazebo)/worlds/kri_nasional.world"/>

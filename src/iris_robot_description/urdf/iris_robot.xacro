@@ -6,7 +6,7 @@
 <xacro:include filename="$(find iris_robot_description)/urdf/iris_robot.gazebo" />
 <link name="base_link">
   <inertial>
-    <origin xyz="0.1997829135981424 0.07174507294677275 -0.03318689491945889" rpy="0 0 0"/>
+    <origin xyz="0.1831445962056383 0.07239617157428578 0.027463824756232526" rpy="0 0 0"/>
     <mass value="3.7613399363810003"/>
     <inertia ixx="0.074761" iyy="0.07222" izz="0.145535" ixy="0.006375" iyz="0.003562" ixz="3.1e-05"/>
   </inertial>
@@ -15,7 +15,7 @@
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/base_link.stl" scale="0.001 0.001 0.001"/>
     </geometry>
-    <material name="silver"/>
+    <material name="black"/>
   </visual>
   <collision>
     <origin xyz="0 0 0" rpy="0 0 0"/>
@@ -27,19 +27,19 @@
 
 <link name="left_motor_bracket_1">
   <inertial>
-    <origin xyz="-0.051697526696497936 -0.0009996854268710664 0.049488279937635715" rpy="0 0 0"/>
+    <origin xyz="-0.05169784408900585 -0.0009995867993597696 0.04948899961332788" rpy="0 0 0"/>
     <mass value="0.47321750244262606"/>
     <inertia ixx="0.000634" iyy="0.000857" izz="0.000382" ixy="-9e-05" iyz="0.0" ixz="-4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.298167 0.092634 0.02819" rpy="0 0 0"/>
+    <origin xyz="-0.281529 0.091983 -0.03246" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.298167 0.092634 0.02819" rpy="0 0 0"/>
+    <origin xyz="-0.281529 0.091983 -0.03246" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -48,19 +48,19 @@
 
 <link name="left_motor_1">
   <inertial>
-    <origin xyz="-0.0208545067980154 0.05897406854688668 -0.0028576079823523295" rpy="0 0 0"/>
+    <origin xyz="-0.020854824190523702 0.05897416717439771 -0.0028578883066602556" rpy="0 0 0"/>
     <mass value="0.3401593265595349"/>
     <inertia ixx="0.000387" iyy="0.000201" izz="0.000434" ixy="7.5e-05" iyz="1.1e-05" ixz="-4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.242374 0.080585 -0.046939" rpy="0 0 0"/>
+    <origin xyz="-0.225736 0.079934 -0.10759" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.242374 0.080585 -0.046939" rpy="0 0 0"/>
+    <origin xyz="-0.225736 0.079934 -0.10759" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -69,19 +69,19 @@
 
 <link name="left_motor_ash_1">
   <inertial>
-    <origin xyz="0.016048832983915545 -0.04538293390535532 0.0021989546019030755" rpy="0 0 0"/>
+    <origin xyz="0.01604851559157805 -0.04538283527782078 0.002199674276821953" rpy="0 0 0"/>
     <mass value="0.08025811044162247"/>
     <inertia ixx="5.8e-05" iyy="9e-06" izz="6.4e-05" ixy="2e-05" iyz="3e-06" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.241279 0.079754 -0.006352" rpy="0 0 0"/>
+    <origin xyz="-0.224641 0.079103 -0.067002" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.241279 0.079754 -0.006352" rpy="0 0 0"/>
+    <origin xyz="-0.224641 0.079103 -0.067002" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -90,19 +90,19 @@
 
 <link name="left_motor_bracket_cover_1">
   <inertial>
-    <origin xyz="-0.02438125526712065 -0.013054566739830922 -0.024735734973780357" rpy="0 0 0"/>
+    <origin xyz="-0.024381572659628287 -0.013054468112319514 -0.02473601529808811" rpy="0 0 0"/>
     <mass value="0.0769306560962844"/>
     <inertia ixx="3.3e-05" iyy="5.6e-05" izz="3.1e-05" ixy="-9e-06" iyz="-1e-06" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.278335 0.102459 -0.034286" rpy="0 0 0"/>
+    <origin xyz="-0.261697 0.101808 -0.094937" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_bracket_cover_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.278335 0.102459 -0.034286" rpy="0 0 0"/>
+    <origin xyz="-0.261697 0.101808 -0.094937" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_motor_bracket_cover_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -111,19 +111,19 @@
 
 <link name="left_ash_to_omni_connector_front_1">
   <inertial>
-    <origin xyz="-0.006616919145590983 0.018712163153787126 -0.0009071806635806701" rpy="0 0 0"/>
+    <origin xyz="-0.006617236538144222 0.01871226178128013 -0.0009064609879057689" rpy="0 0 0"/>
     <mass value="0.1791480879958417"/>
     <inertia ixx="5.8e-05" iyy="6.4e-05" izz="5.8e-05" ixy="-2e-06" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.273751 0.17158 -0.010802" rpy="0 0 0"/>
+    <origin xyz="-0.257113 0.170929 -0.071452" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_ash_to_omni_connector_front_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.273751 0.17158 -0.010802" rpy="0 0 0"/>
+    <origin xyz="-0.257113 0.170929 -0.071452" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_ash_to_omni_connector_front_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -132,19 +132,19 @@
 
 <link name="front_right_omni_1">
   <inertial>
-    <origin xyz="-0.0025565844279144545 -0.00362987882889354 -0.023379755452968526" rpy="0 0 0"/>
+    <origin xyz="-0.01942590182350401 -0.008966780202215252 -0.010418035771954784" rpy="0 0 0"/>
     <mass value="0.23500963441195055"/>
     <inertia ixx="0.000307" iyy="0.000518" izz="0.000278" ixy="-8.5e-05" iyz="-1.2e-05" ixz="4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.274809 0.163712 -0.033976" rpy="0 0 0"/>
+    <origin xyz="-0.27504 0.157724 -0.081665" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.274809 0.163712 -0.033976" rpy="0 0 0"/>
+    <origin xyz="-0.27504 0.157724 -0.081665" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -153,19 +153,19 @@
 
 <link name="mid_right_omni_1">
   <inertial>
-    <origin xyz="-0.02150992431476545 -0.006449952818261606 -0.009005428134492715" rpy="0 0 0"/>
+    <origin xyz="-0.01973886434902064 -0.0047501977858498134 0.013159920747479098" rpy="0 0 0"/>
     <mass value="0.2348808094813233"/>
     <inertia ixx="0.000307" iyy="0.000518" izz="0.000278" ixy="-8.5e-05" iyz="-1.2e-05" ixz="4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.286499 0.141226 -0.018298" rpy="0 0 0"/>
+    <origin xyz="-0.267934 0.142311 -0.057169" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/mid_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.286499 0.141226 -0.018298" rpy="0 0 0"/>
+    <origin xyz="-0.267934 0.142311 -0.057169" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/mid_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -174,19 +174,19 @@
 
 <link name="left_ash_to_omni_connector_rear_1">
   <inertial>
-    <origin xyz="-0.02648735023287563 -3.924698516621916e-05 -0.004728931951233606" rpy="0 0 0"/>
+    <origin xyz="-0.020120484439436953 0.0032920238285845393 0.017557937881550634" rpy="0 0 0"/>
     <mass value="0.09595762654106495"/>
     <inertia ixx="3.2e-05" iyy="5.1e-05" izz="2.9e-05" ixy="-8e-06" iyz="-1e-06" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.286721 0.138277 -0.011804" rpy="0 0 0"/>
+    <origin xyz="-0.262736 0.141195 -0.05241" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_ash_to_omni_connector_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.286721 0.138277 -0.011804" rpy="0 0 0"/>
+    <origin xyz="-0.262736 0.141195 -0.05241" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_ash_to_omni_connector_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -195,19 +195,19 @@
 
 <link name="rear_right_omni_1">
   <inertial>
-    <origin xyz="-0.02221384333561427 -0.00652934620012538 -0.005498715058939618" rpy="0 0 0"/>
+    <origin xyz="-0.017440703587482093 -0.0038125251946335426 0.015735515057858036" rpy="0 0 0"/>
     <mass value="0.23500963441194936"/>
     <inertia ixx="0.000307" iyy="0.000518" izz="0.000278" ixy="-8.5e-05" iyz="-1.2e-05" ixz="4e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.277582 0.122305 -0.013681" rpy="0 0 0"/>
+    <origin xyz="-0.256983 0.123951 -0.05583" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.277582 0.122305 -0.013681" rpy="0 0 0"/>
+    <origin xyz="-0.256983 0.123951 -0.05583" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -216,19 +216,19 @@
 
 <link name="rear_motor_bracket_1">
   <inertial>
-    <origin xyz="-0.031387654658413866 0.04246961585948514 0.04729811610200291" rpy="0 0 0"/>
+    <origin xyz="-0.0313879720509227 0.04246971448699596 0.04729783577769485" rpy="0 0 0"/>
     <mass value="0.47321750244279526"/>
     <inertia ixx="0.000723" iyy="0.000764" izz="0.000386" ixy="0.00014" iyz="-3.8e-05" ixz="-2.4e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.329052 -0.138527 0.039659" rpy="0 0 0"/>
+    <origin xyz="-0.312414 -0.139178 -0.020992" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.329052 -0.138527 0.039659" rpy="0 0 0"/>
+    <origin xyz="-0.312414 -0.139178 -0.020992" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -237,19 +237,19 @@
 
 <link name="rear_motor_bracket_cover_1">
   <inertial>
-    <origin xyz="-0.01849719969034308 0.018509146826390682 -0.026305410316676468" rpy="0 0 0"/>
+    <origin xyz="-0.01849751708285191 0.018509245453901563 -0.026305690640984522" rpy="0 0 0"/>
     <mass value="0.07693065609628418"/>
     <inertia ixx="4.2e-05" iyy="4.7e-05" izz="3.1e-05" ixy="1.5e-05" iyz="-1e-06" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.330799 -0.17898 -0.020288" rpy="0 0 0"/>
+    <origin xyz="-0.314161 -0.179631 -0.080939" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_bracket_cover_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.330799 -0.17898 -0.020288" rpy="0 0 0"/>
+    <origin xyz="-0.314161 -0.179631 -0.080939" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_bracket_cover_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -258,19 +258,19 @@
 
 <link name="rear_motor_1">
   <inertial>
-    <origin xyz="-0.03420629073321296 -0.039930650909949156 0.0020492661372191606" rpy="0 0 0"/>
+    <origin xyz="-0.034205608125721654 -0.03993055228243836 0.002048985812911089" rpy="0 0 0"/>
     <mass value="0.3401593265595337"/>
     <inertia ixx="0.000312" iyy="0.000276" izz="0.000435" ixy="-0.000118" iyz="8e-06" ixz="6e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.289612 -0.172816 -0.034336" rpy="0 0 0"/>
+    <origin xyz="-0.272973 -0.173467 -0.094987" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.289612 -0.172816 -0.034336" rpy="0 0 0"/>
+    <origin xyz="-0.272973 -0.173467 -0.094987" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -279,19 +279,19 @@
 
 <link name="rear_motor_ash_1">
   <inertial>
-    <origin xyz="0.03132504925632934 0.03656813129600975 -0.0018765445552491305" rpy="0 0 0"/>
+    <origin xyz="0.03132573186382048 0.03656822992352057 -0.001876824879557197" rpy="0 0 0"/>
     <mass value="0.0802581104416225"/>
     <inertia ixx="3.8e-05" iyy="2.8e-05" izz="6.4e-05" ixy="-3.1e-05" iyz="2e-06" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.287566 -0.168545 0.005998" rpy="0 0 0"/>
+    <origin xyz="-0.270927 -0.169196 -0.054653" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.287566 -0.168545 0.005998" rpy="0 0 0"/>
+    <origin xyz="-0.270927 -0.169196 -0.054653" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -300,19 +300,19 @@
 
 <link name="rear_ash_to_omni_connector_rear_1">
   <inertial>
-    <origin xyz="-0.012915908038877266 -0.015077361998288241 0.0007737419278990767" rpy="0 0 0"/>
+    <origin xyz="-0.012916225431386319 -0.015077263370777416 0.0007734616035909858" rpy="0 0 0"/>
     <mass value="0.17914808799583984"/>
     <inertia ixx="6.1e-05" iyy="6.2e-05" izz="5.8e-05" ixy="3e-06" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.350948 -0.242535 0.009795" rpy="0 0 0"/>
+    <origin xyz="-0.33431 -0.243186 -0.050856" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_ash_to_omni_connector_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.350948 -0.242535 0.009795" rpy="0 0 0"/>
+    <origin xyz="-0.33431 -0.243186 -0.050856" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_ash_to_omni_connector_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -321,19 +321,19 @@
 
 <link name="front_rear_omni_1">
   <inertial>
-    <origin xyz="-0.005150311755604486 0.005227270431975128 -0.02263778094796189" rpy="0 0 0"/>
+    <origin xyz="-0.005150629148113484 0.005227369059485898 -0.022637061272269964" rpy="0 0 0"/>
     <mass value="0.23500963441722925"/>
     <inertia ixx="0.000392" iyy="0.000433" izz="0.000277" ixy="0.000134" iyz="-8e-06" ixz="-7e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.353173 -0.233893 -0.013018" rpy="0 0 0"/>
+    <origin xyz="-0.336535 -0.234544 -0.073668" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.353173 -0.233893 -0.013018" rpy="0 0 0"/>
+    <origin xyz="-0.336535 -0.234544 -0.073668" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -342,19 +342,19 @@
 
 <link name="mid_rear_omni_1">
   <inertial>
-    <origin xyz="-0.0009649619788453245 -0.0011463945353487603 6.0714852895216165e-05" rpy="0 0 0"/>
+    <origin xyz="-0.0009652793713543217 -0.0011462959078379353 6.143452858713844e-05" rpy="0 0 0"/>
     <mass value="0.23488080945950318"/>
     <inertia ixx="0.000392" iyy="0.000433" izz="0.000277" ixy="0.000134" iyz="-8e-06" ixz="-7e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.335346 -0.224322 0.00886" rpy="0 0 0"/>
+    <origin xyz="-0.318708 -0.224973 -0.05179" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/mid_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.335346 -0.224322 0.00886" rpy="0 0 0"/>
+    <origin xyz="-0.318708 -0.224973 -0.05179" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/mid_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -363,19 +363,19 @@
 
 <link name="rear_ash_to_omni_connector_2_rear_1">
   <inertial>
-    <origin xyz="-0.00582885210636136 -0.006848352832746291 0.00035850381916479636" rpy="0 0 0"/>
+    <origin xyz="-0.005829169498870246 -0.006848254205235438 0.0003582234948567159" rpy="0 0 0"/>
     <mass value="0.09595762654117547"/>
     <inertia ixx="3.9e-05" iyy="4.3e-05" izz="2.9e-05" ixy="1.2e-05" iyz="-1e-06" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.332096 -0.220528 0.008666" rpy="0 0 0"/>
+    <origin xyz="-0.315458 -0.221179 -0.051985" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_ash_to_omni_connector_2_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.332096 -0.220528 0.008666" rpy="0 0 0"/>
+    <origin xyz="-0.315458 -0.221179 -0.051985" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_ash_to_omni_connector_2_rear_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -384,19 +384,19 @@
 
 <link name="rear_rear_omni_1">
   <inertial>
-    <origin xyz="-0.0009755939810011105 -0.0011380856359286262 5.8802313065485154e-05" rpy="0 0 0"/>
+    <origin xyz="-0.0009749113735100234 -0.001137987008417829 5.8521988757449794e-05" rpy="0 0 0"/>
     <mass value="0.23500963441722744"/>
     <inertia ixx="0.000392" iyy="0.000433" izz="0.000277" ixy="0.000134" iyz="-8e-06" ixz="-7e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.320395 -0.206868 0.007965" rpy="0 0 0"/>
+    <origin xyz="-0.303756 -0.207519 -0.052686" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.320395 -0.206868 0.007965" rpy="0 0 0"/>
+    <origin xyz="-0.303756 -0.207519 -0.052686" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/rear_rear_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -405,19 +405,19 @@
 
 <link name="right_motor_bracket_1">
   <inertial>
-    <origin xyz="-0.0005450198967092146 0.05334564740454088 0.04668862967935976" rpy="0 0 0"/>
+    <origin xyz="-0.0005443372892179228 0.05334574603205128 0.046688349355051714" rpy="0 0 0"/>
     <mass value="0.4732175024428434"/>
     <inertia ixx="0.000878" iyy="0.000611" izz="0.000384" ixy="-5e-05" iyz="-1.6e-05" ixz="2.5e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.03448 -0.034651 0.033842" rpy="0 0 0"/>
+    <origin xyz="-0.017841 -0.035302 -0.026809" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.03448 -0.034651 0.033842" rpy="0 0 0"/>
+    <origin xyz="-0.017841 -0.035302 -0.026809" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_bracket_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -426,19 +426,19 @@
 
 <link name="right_motor_1">
   <inertial>
-    <origin xyz="0.05175533655903638 -0.00965162070469977 0.000337872160931979" rpy="0 0 0"/>
+    <origin xyz="0.051756019166527736 -0.009651522077189181 0.000337591836623935" rpy="0 0 0"/>
     <mass value="0.33990296538909626"/>
     <inertia ixx="0.000182" iyy="0.000405" izz="0.000434" ixy="4.3e-05" iyz="2e-06" ixz="-2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.046269 -0.087005 -0.039141" rpy="0 0 0"/>
+    <origin xyz="-0.02963 -0.087656 -0.099792" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.046269 -0.087005 -0.039141" rpy="0 0 0"/>
+    <origin xyz="-0.02963 -0.087656 -0.099792" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -447,19 +447,19 @@
 
 <link name="right_motor_ash_1">
   <inertial>
-    <origin xyz="-0.047372348883388475 0.008816202065788606 -0.0003223717079439449" rpy="0 0 0"/>
+    <origin xyz="-0.04737266627589722 0.008816300693298904 -0.0003226520322519577" rpy="0 0 0"/>
     <mass value="0.08025811044162175"/>
     <inertia ixx="4e-06" iyy="6.2e-05" izz="6.4e-05" ixy="1.1e-05" iyz="0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.049122 -0.084462 0.00129" rpy="0 0 0"/>
+    <origin xyz="-0.032484 -0.085113 -0.059361" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.049122 -0.084462 0.00129" rpy="0 0 0"/>
+    <origin xyz="-0.032484 -0.085113 -0.059361" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_motor_ash_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -468,19 +468,19 @@
 
 <link name="right_ash_to_omni_connector_1">
   <inertial>
-    <origin xyz="0.019532941570576775 -0.0036347234256039196 0.0001334422656076291" rpy="0 0 0"/>
+    <origin xyz="0.01953262417806799 -0.0036346247980936913 0.00013316194129961434" rpy="0 0 0"/>
     <mass value="0.1791480879958664"/>
     <inertia ixx="6.4e-05" iyy="5.8e-05" izz="5.8e-05" ixy="-1e-06" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.04673 -0.1023 0.001943" rpy="0 0 0"/>
+    <origin xyz="0.063368 -0.102951 -0.058708" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_ash_to_omni_connector_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.04673 -0.1023 0.001943" rpy="0 0 0"/>
+    <origin xyz="0.063368 -0.102951 -0.058708" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_ash_to_omni_connector_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -489,19 +489,19 @@
 
 <link name="right_front_right_omni_1">
   <inertial>
-    <origin xyz="-0.0031656861598359926 -0.009601959848867594 -0.021542478252831714" rpy="0 0 0"/>
+    <origin xyz="-0.0031660035523448163 -0.009601861221357408 -0.021542758577139748" rpy="0 0 0"/>
     <mass value="0.2350096344278615"/>
     <inertia ixx="0.000539" iyy="0.000286" izz="0.000277" ixy="-4.9e-05" iyz="-0.0" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.03914 -0.111079 -0.01963" rpy="0 0 0"/>
+    <origin xyz="0.055778 -0.11173 -0.080281" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_front_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.03914 -0.111079 -0.01963" rpy="0 0 0"/>
+    <origin xyz="0.055778 -0.11173 -0.080281" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_front_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -510,19 +510,19 @@
 
 <link name="right_mid_right_omni_1">
   <inertial>
-    <origin xyz="0.005866354240313575 0.023393965437763592 0.001918297702200362" rpy="0 0 0"/>
+    <origin xyz="0.005866036847804797 0.02339406406527389 0.0019190173778923028" rpy="0 0 0"/>
     <mass value="0.2348808094962352"/>
     <inertia ixx="0.000539" iyy="0.000286" izz="0.000277" ixy="-4.9e-05" iyz="-0.0" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.02745 -0.074648 0.003871" rpy="0 0 0"/>
+    <origin xyz="0.044088 -0.075299 -0.056779" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_mid_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.02745 -0.074648 0.003871" rpy="0 0 0"/>
+    <origin xyz="0.044088 -0.075299 -0.056779" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_mid_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -531,19 +531,19 @@
 
 <link name="right_ash_to_omni_connector_2_1">
   <inertial>
-    <origin xyz="0.007882474514844912 -0.007671786836380173 -0.022875569472314047" rpy="0 0 0"/>
+    <origin xyz="0.007883157122336094 -0.007671688208869806 -0.022875849796621966" rpy="0 0 0"/>
     <mass value="0.09595762654107597"/>
     <inertia ixx="5.3e-05" iyy="3e-05" izz="2.9e-05" ixy="-4e-06" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.019514 -0.101819 -0.021448" rpy="0 0 0"/>
+    <origin xyz="0.036153 -0.10247 -0.082099" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_ash_to_omni_connector_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.019514 -0.101819 -0.021448" rpy="0 0 0"/>
+    <origin xyz="0.036153 -0.10247 -0.082099" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_ash_to_omni_connector_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -552,19 +552,19 @@
 
 <link name="right_rear_right_omni_1">
   <inertial>
-    <origin xyz="0.0014748984176143037 -0.0002746014886209347 9.638110449464209e-06" rpy="0 0 0"/>
+    <origin xyz="0.0014745810251055001 -0.0002745028611105399 1.035778614158489e-05" rpy="0 0 0"/>
     <mass value="0.23500963442786377"/>
     <inertia ixx="0.000539" iyy="0.000286" izz="0.000277" ixy="-4.9e-05" iyz="-0.0" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.002789 -0.092473 0.001376" rpy="0 0 0"/>
+    <origin xyz="0.019427 -0.093124 -0.059274" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_rear_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.002789 -0.092473 0.001376" rpy="0 0 0"/>
+    <origin xyz="0.019427 -0.093124 -0.059274" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_rear_right_omni_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -573,19 +573,19 @@
 
 <link name="back_stand_1">
   <inertial>
-    <origin xyz="0.013984132205175304 0.019654455376097668 0.03466910717455984" rpy="0 0 0"/>
+    <origin xyz="0.013983814812666473 0.019653554003608853 0.034669826850251495" rpy="0 0 0"/>
     <mass value="0.10115982495882724"/>
     <inertia ixx="6.5e-05" iyy="5.9e-05" izz="3.7e-05" ixy="-1.8e-05" iyz="-2e-06" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.269518 -0.258634 0.015402" rpy="0 0 0"/>
+    <origin xyz="-0.25288 -0.259286 -0.045248" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/back_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.269518 -0.258634 0.015402" rpy="0 0 0"/>
+    <origin xyz="-0.25288 -0.259286 -0.045248" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/back_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -594,19 +594,19 @@
 
 <link name="back_stand_2_1">
   <inertial>
-    <origin xyz="0.011793373613828484 0.016423473103766684 0.035706990381220396" rpy="0 0 0"/>
+    <origin xyz="0.011794056221320348 0.016423571731278314 0.03570671005691215" rpy="0 0 0"/>
     <mass value="0.10115982495882658"/>
     <inertia ixx="6.6e-05" iyy="5.8e-05" izz="3.7e-05" ixy="-1.7e-05" iyz="-1e-06" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.379699 -0.164475 0.011021" rpy="0 0 0"/>
+    <origin xyz="-0.36306 -0.165126 -0.04963" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/back_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.379699 -0.164475 0.011021" rpy="0 0 0"/>
+    <origin xyz="-0.36306 -0.165126 -0.04963" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/back_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -615,19 +615,19 @@
 
 <link name="left_stand_1">
   <inertial>
-    <origin xyz="-0.00615797655412742 0.019456102414034324 0.03560034642363858" rpy="0 0 0"/>
+    <origin xyz="-0.006158293946634363 0.019456201041546273 0.03560006609933064" rpy="0 0 0"/>
     <mass value="0.10115982495882687"/>
     <inertia ixx="7.6e-05" iyy="4.8e-05" izz="3.7e-05" ixy="1.1e-05" iyz="-1e-06" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.338766 0.138302 -0.004001" rpy="0 0 0"/>
+    <origin xyz="-0.322128 0.137651 -0.064652" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.338766 0.138302 -0.004001" rpy="0 0 0"/>
+    <origin xyz="-0.322128 0.137651 -0.064652" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -636,19 +636,19 @@
 
 <link name="left_stand_2_1">
   <inertial>
-    <origin xyz="-0.006158607006235717 0.01945654369404598 0.03560010042483574" rpy="0 0 0"/>
+    <origin xyz="-0.006157924398742548 0.019455642321557526 0.035599820100527826" rpy="0 0 0"/>
     <mass value="0.10115982495882704"/>
     <inertia ixx="7.6e-05" iyy="4.8e-05" izz="3.7e-05" ixy="1.1e-05" iyz="-1e-06" ixz="-1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.202044 0.186517 -0.006701" rpy="0 0 0"/>
+    <origin xyz="-0.185405 0.185865 -0.067352" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.202044 0.186517 -0.006701" rpy="0 0 0"/>
+    <origin xyz="-0.185405 0.185865 -0.067352" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -657,19 +657,19 @@
 
 <link name="right_stand_1">
   <inertial>
-    <origin xyz="0.018513457223945866 -0.0016635408985060385 0.03658276208474122" rpy="0 0 0"/>
+    <origin xyz="0.018513139831437455 -0.0016644422709958528 0.03658248176043292" rpy="0 0 0"/>
     <mass value="0.10115982495882687"/>
     <inertia ixx="4.6e-05" iyy="7.9e-05" izz="3.7e-05" ixy="6e-06" iyz="-2e-06" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.02364 -0.171407 0.01041" rpy="0 0 0"/>
+    <origin xyz="0.040278 -0.172059 -0.050241" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.02364 -0.171407 0.01041" rpy="0 0 0"/>
+    <origin xyz="0.040278 -0.172059 -0.050241" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -678,19 +678,19 @@
 
 <link name="right_stand_2_1">
   <inertial>
-    <origin xyz="0.018525283782883872 -0.0015985110367316563 0.03657903498915858" rpy="0 0 0"/>
+    <origin xyz="0.018525966390376014 -0.001598412409221272 0.036579754664850424" rpy="0 0 0"/>
     <mass value="0.10115982495882693"/>
     <inertia ixx="4.5e-05" iyy="7.9e-05" izz="3.7e-05" ixy="6e-06" iyz="-2e-06" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="0.05018 -0.029047 0.003183" rpy="0 0 0"/>
+    <origin xyz="0.066819 -0.029698 -0.057467" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.05018 -0.029047 0.003183" rpy="0 0 0"/>
+    <origin xyz="0.066819 -0.029698 -0.057467" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_stand_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -699,19 +699,19 @@
 
 <link name="right_dribble_base_1">
   <inertial>
-    <origin xyz="-0.00412164062016083 0.0747356988513514 0.0003299157730984881" rpy="0 0 0"/>
+    <origin xyz="-0.004121958012669343 0.0747357974788617 0.0003306354487902785" rpy="0 0 0"/>
     <mass value="0.08008274771247241"/>
     <inertia ixx="0.000154" iyy="3.4e-05" izz="0.000187" ixy="-2.3e-05" iyz="8e-06" ixz="1e-06"/>
   </inertial>
   <visual>
-    <origin xyz="0.013129 -0.02585 -0.069976" rpy="0 0 0"/>
+    <origin xyz="0.029767 -0.026501 -0.130626" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_dribble_base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.013129 -0.02585 -0.069976" rpy="0 0 0"/>
+    <origin xyz="0.029767 -0.026501 -0.130626" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_dribble_base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -720,19 +720,19 @@
 
 <link name="left_dribble__base_1">
   <inertial>
-    <origin xyz="0.0743782165808364 0.007650307807222062 0.0034519872616574354" rpy="0 0 0"/>
+    <origin xyz="0.0743778991883289 0.007650406434733498 0.0034517069373495857" rpy="0 0 0"/>
     <mass value="0.08008274771247227"/>
     <inertia ixx="4.4e-05" iyy="0.000144" izz="0.000187" ixy="-4.1e-05" iyz="2e-06" ixz="2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.189727 0.147604 -0.077901" rpy="0 0 0"/>
+    <origin xyz="-0.173089 0.146953 -0.138552" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_dribble__base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.189727 0.147604 -0.077901" rpy="0 0 0"/>
+    <origin xyz="-0.173089 0.146953 -0.138552" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_dribble__base_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -741,19 +741,19 @@
 
 <link name="left_gp_stand_1">
   <inertial>
-    <origin xyz="4.653897544282248e-05 0.0009803391291484248 0.019876751600899325" rpy="0 0 0"/>
+    <origin xyz="4.72215829349365e-05 0.000979437756659457 0.019877471276591487" rpy="0 0 0"/>
     <mass value="0.010745999999999084"/>
     <inertia ixx="2e-06" iyy="1e-06" izz="0.0" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.152172 0.069753 0.036983" rpy="0 0 0"/>
+    <origin xyz="-0.135533 0.069101 -0.023667" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_gp_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.152172 0.069753 0.036983" rpy="0 0 0"/>
+    <origin xyz="-0.135533 0.069101 -0.023667" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_gp_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -762,19 +762,19 @@
 
 <link name="right_gp_stand_1">
   <inertial>
-    <origin xyz="4.6712319331287944e-05 0.0009802817595952842 0.01987729973450546" rpy="0 0 0"/>
+    <origin xyz="4.739492682316604e-05 0.0009793803871059868 0.019877019410197556" rpy="0 0 0"/>
     <mass value="0.010746000000001104"/>
     <inertia ixx="1e-06" iyy="2e-06" izz="0.0" ixy="0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.072009 0.003058 0.040082" rpy="0 0 0"/>
+    <origin xyz="-0.05537 0.002406 -0.020569" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_gp_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.072009 0.003058 0.040082" rpy="0 0 0"/>
+    <origin xyz="-0.05537 0.002406 -0.020569" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_gp_stand_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -783,19 +783,19 @@
 
 <link name="left_gp_1">
   <inertial>
-    <origin xyz="-0.008105229956407417 -0.006395181503492123 -0.000601056526137591" rpy="0 0 0"/>
+    <origin xyz="-0.008105547348915276 -0.006395082875981117 -0.0006003368504454085" rpy="0 0 0"/>
     <mass value="0.005571407726622197"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.14986 0.069624 0.01746" rpy="0 0 0"/>
+    <origin xyz="-0.133222 0.068973 -0.04319" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_gp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.14986 0.069624 0.01746" rpy="0 0 0"/>
+    <origin xyz="-0.133222 0.068973 -0.04319" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_gp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -804,19 +804,19 @@
 
 <link name="right_gp_1">
   <inertial>
-    <origin xyz="0.0014529991783455154 -0.01023176478116232 -0.0004351710474519016" rpy="0 0 0"/>
+    <origin xyz="0.0014526817858374133 -0.010231666153651599 -0.00043445137175977117" rpy="0 0 0"/>
     <mass value="0.005570925816354775"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.071597 0.004552 0.020483" rpy="0 0 0"/>
+    <origin xyz="-0.054959 0.003901 -0.040167" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_gp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.071597 0.004552 0.020483" rpy="0 0 0"/>
+    <origin xyz="-0.054959 0.003901 -0.040167" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_gp_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -825,19 +825,19 @@
 
 <link name="right_free_wheel_holder_1">
   <inertial>
-    <origin xyz="-0.0019295371189496507 0.010805425862065012 0.015696027032307807" rpy="0 0 0"/>
+    <origin xyz="-0.001929854511457732 0.010805524489575684 0.015695746707999857" rpy="0 0 0"/>
     <mass value="0.006353274364026673"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.05281 0.025279 0.000895" rpy="0 0 0"/>
+    <origin xyz="-0.036172 0.024628 -0.059756" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_free_wheel_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.05281 0.025279 0.000895" rpy="0 0 0"/>
+    <origin xyz="-0.036172 0.024628 -0.059756" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_free_wheel_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -846,19 +846,19 @@
 
 <link name="right_free_wheel_holder_2_1">
   <inertial>
-    <origin xyz="0.002214993096767894 0.009534264263269473 0.01533000586457801" rpy="0 0 0"/>
+    <origin xyz="0.0022146757042597687 0.009534362890779998 0.015330725540270151" rpy="0 0 0"/>
     <mass value="0.006353274364026674"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.011312 0.024878 0.000816" rpy="0 0 0"/>
+    <origin xyz="0.005326 0.024227 -0.059834" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_free_wheel_holder_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.011312 0.024878 0.000816" rpy="0 0 0"/>
+    <origin xyz="0.005326 0.024227 -0.059834" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_free_wheel_holder_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -867,19 +867,19 @@
 
 <link name="left_free_wheel_holder_1">
   <inertial>
-    <origin xyz="0.009563864086624352 0.004470215631200758 0.015981262735527683" rpy="0 0 0"/>
+    <origin xyz="0.0095635466941167 0.004470314258711916 0.015980982411219882" rpy="0 0 0"/>
     <mass value="0.006353274364026677"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.139205 0.134175 -0.004269" rpy="0 0 0"/>
+    <origin xyz="-0.122567 0.133524 -0.06492" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_free_wheel_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.139205 0.134175 -0.004269" rpy="0 0 0"/>
+    <origin xyz="-0.122567 0.133524 -0.06492" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_free_wheel_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -888,19 +888,19 @@
 
 <link name="left_free_wheel_holder_2_1">
   <inertial>
-    <origin xyz="0.010240961935899434 0.0004041597684357606 0.01617957892111891" rpy="0 0 0"/>
+    <origin xyz="0.010241644543391673 0.00040425839594682156 0.016179298596811068" rpy="0 0 0"/>
     <mass value="0.006353274364026671"/>
     <inertia ixx="1e-06" iyy="1e-06" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
   </inertial>
   <visual>
-    <origin xyz="-0.13239 0.093287 -0.00227" rpy="0 0 0"/>
+    <origin xyz="-0.115751 0.092636 -0.062921" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_free_wheel_holder_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.13239 0.093287 -0.00227" rpy="0 0 0"/>
+    <origin xyz="-0.115751 0.092636 -0.062921" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_free_wheel_holder_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -909,19 +909,19 @@
 
 <link name="right_pillar_1">
   <inertial>
-    <origin xyz="0.04725919149925354 -0.056924477164433746 0.1415425229973116" rpy="0 0 0"/>
+    <origin xyz="0.04725987410674455 -0.05692437853691784 0.14154324267300145" rpy="0 0 0"/>
     <mass value="0.7699108870729039"/>
     <inertia ixx="0.005036" iyy="0.003721" izz="0.002681" ixy="0.000983" iyz="0.001212" ixz="-0.000481"/>
   </inertial>
   <visual>
-    <origin xyz="0.012204 -0.182905 0.046046" rpy="0 0 0"/>
+    <origin xyz="0.028843 -0.183556 -0.014604" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="0.012204 -0.182905 0.046046" rpy="0 0 0"/>
+    <origin xyz="0.028843 -0.183556 -0.014604" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -930,19 +930,19 @@
 
 <link name="right_pillar_2_1">
   <inertial>
-    <origin xyz="0.0008590148699449962 0.04199938867710251 0.10539700906456288" rpy="0 0 0"/>
+    <origin xyz="0.0008596974774361665 0.04199948730461303 0.10539672874025463" rpy="0 0 0"/>
     <mass value="0.7961364029331388"/>
     <inertia ixx="0.005005" iyy="0.003847" izz="0.001659" ixy="0.000526" iyz="-0.00016" ixz="-8.2e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.168398 -0.178381 0.04625" rpy="0 0 0"/>
+    <origin xyz="-0.151759 -0.179032 -0.014401" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_pillar_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.168398 -0.178381 0.04625" rpy="0 0 0"/>
+    <origin xyz="-0.151759 -0.179032 -0.014401" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_pillar_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -951,19 +951,19 @@
 
 <link name="left_pillar_1">
   <inertial>
-    <origin xyz="-0.07006394979126412 0.043310299201566926 0.13698173633576122" rpy="0 0 0"/>
+    <origin xyz="-0.0700642671837719 0.04331039782907839 0.13698145601145323" rpy="0 0 0"/>
     <mass value="0.7700624944967484"/>
     <inertia ixx="0.003331" iyy="0.005283" izz="0.002827" ixy="0.000799" iyz="-0.000352" ixz="0.001271"/>
   </inertial>
   <visual>
-    <origin xyz="-0.350933 0.127494 0.031603" rpy="0 0 0"/>
+    <origin xyz="-0.334295 0.126843 -0.029048" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.350933 0.127494 0.031603" rpy="0 0 0"/>
+    <origin xyz="-0.334295 0.126843 -0.029048" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -972,19 +972,19 @@
 
 <link name="right_mid_pillar_1">
   <inertial>
-    <origin xyz="-0.058258778266162325 -0.09753336844139324 0.13006930181452325" rpy="0 0 0"/>
+    <origin xyz="-0.058259095658670934 -0.09753326981388244 0.13007002149021496" rpy="0 0 0"/>
     <mass value="1.3032497925991593"/>
     <inertia ixx="0.011612" iyy="0.009063" izz="0.009912" ixy="-0.004744" iyz="0.001676" ixz="0.001489"/>
   </inertial>
   <visual>
-    <origin xyz="-0.263954 -0.274607 0.051219" rpy="0 0 0"/>
+    <origin xyz="-0.247316 -0.275258 -0.009431" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_mid_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.263954 -0.274607 0.051219" rpy="0 0 0"/>
+    <origin xyz="-0.247316 -0.275258 -0.009431" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_mid_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -993,19 +993,19 @@
 
 <link name="left_mid_pillar_1">
   <inertial>
-    <origin xyz="-0.10621003173810589 -0.08284353750570145 0.12945913319776445" rpy="0 0 0"/>
+    <origin xyz="-0.10621034913060523 -0.0828434388781864 0.12945885287345435" rpy="0 0 0"/>
     <mass value="1.3032498998273039"/>
     <inertia ixx="0.010444" iyy="0.010216" izz="0.009926" ixy="-0.00492" iyz="0.001497" ixz="0.001644"/>
   </inertial>
   <visual>
-    <origin xyz="-0.398808 -0.158751 0.045827" rpy="0 0 0"/>
+    <origin xyz="-0.38217 -0.159402 -0.014824" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_mid_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.398808 -0.158751 0.045827" rpy="0 0 0"/>
+    <origin xyz="-0.38217 -0.159402 -0.014824" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_mid_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1014,19 +1014,19 @@
 
 <link name="left_pillar_2_1">
   <inertial>
-    <origin xyz="0.03647510404681581 0.011562002337081177 0.10681277999232029" rpy="0 0 0"/>
+    <origin xyz="0.036475786654307674 0.011562100964592509 0.10681349966801221" rpy="0 0 0"/>
     <mass value="0.7961333154265748"/>
     <inertia ixx="0.003723" iyy="0.005126" izz="0.001663" ixy="0.000326" iyz="-0.000228" ixz="-6.3e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.317468 -0.050833 0.040314" rpy="0 0 0"/>
+    <origin xyz="-0.300829 -0.051484 -0.020336" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_pillar_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.317468 -0.050833 0.040314" rpy="0 0 0"/>
+    <origin xyz="-0.300829 -0.051484 -0.020336" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_pillar_2_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1035,19 +1035,19 @@
 
 <link name="capacitor_1">
   <inertial>
-    <origin xyz="0.00017699955991859473 0.0036924664770147664 0.07490920704378648" rpy="0 0 0"/>
+    <origin xyz="0.0001766821674097363 0.0036925651045253416 0.07490892671947827" rpy="0 0 0"/>
     <mass value="0.6984938566175236"/>
     <inertia ixx="0.001569" iyy="0.001566" izz="0.00052" ixy="-0.0" iyz="-5.2e-05" ixz="-2e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.20565 -0.240347 0.049393" rpy="0 0 0"/>
+    <origin xyz="-0.189012 -0.240998 -0.011258" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/capacitor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.20565 -0.240347 0.049393" rpy="0 0 0"/>
+    <origin xyz="-0.189012 -0.240998 -0.011258" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/capacitor_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1056,19 +1056,19 @@
 
 <link name="front_pillar_1">
   <inertial>
-    <origin xyz="0.038023972738391504 -0.03929104896993616 -0.0025143729584205243" rpy="0 0 0"/>
+    <origin xyz="0.038024655345883146 -0.039290950342420916 -0.0025146532827305668" rpy="0 0 0"/>
     <mass value="2.118940277633313"/>
     <inertia ixx="0.023007" iyy="0.023438" izz="0.003189" ixy="0.001529" iyz="-0.001004" ixz="-0.000123"/>
   </inertial>
   <visual>
-    <origin xyz="-0.096136 -0.036608 -0.148711" rpy="0 0 0"/>
+    <origin xyz="-0.079497 -0.037259 -0.209362" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.096136 -0.036608 -0.148711" rpy="0 0 0"/>
+    <origin xyz="-0.079497 -0.037259 -0.209362" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/front_pillar_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1077,19 +1077,19 @@
 
 <link name="right_kicker_holder_1">
   <inertial>
-    <origin xyz="-0.043659495404208326 -0.05773067373555618 -0.0103780803752212" rpy="0 0 0"/>
+    <origin xyz="-0.04365881279671671 -0.05773057510804541 -0.010378360699529271" rpy="0 0 0"/>
     <mass value="0.15777168146927772"/>
     <inertia ixx="0.000396" iyy="0.000341" izz="0.000357" ixy="-0.000175" iyz="2e-06" ixz="9e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.203882 -0.168131 -0.130919" rpy="0 0 0"/>
+    <origin xyz="-0.187243 -0.168782 -0.19157" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.203882 -0.168131 -0.130919" rpy="0 0 0"/>
+    <origin xyz="-0.187243 -0.168782 -0.19157" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/right_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1098,19 +1098,19 @@
 
 <link name="left_kicker_holder_1">
   <inertial>
-    <origin xyz="0.038304824554224653 0.04900170353647457 -0.04255404423071249" rpy="0 0 0"/>
+    <origin xyz="0.03830450716172523 0.049001802163989736 -0.04255432455502245" rpy="0 0 0"/>
     <mass value="0.15777168146927842"/>
     <inertia ixx="0.000396" iyy="0.000341" izz="0.000357" ixy="-0.000175" iyz="1e-06" ixz="8e-06"/>
   </inertial>
   <visual>
-    <origin xyz="-0.193811 0.026516 -0.168048" rpy="0 0 0"/>
+    <origin xyz="-0.177173 0.025865 -0.228699" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.193811 0.026516 -0.168048" rpy="0 0 0"/>
+    <origin xyz="-0.177173 0.025865 -0.228699" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/left_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1119,19 +1119,19 @@
 
 <link name="solenoid_front_1">
   <inertial>
-    <origin xyz="-0.04591124507447117 0.029685997860337633 -0.028676269484536554" rpy="0 0 0"/>
+    <origin xyz="-0.04591156246697056 0.02968609648785287 -0.02867654980884657" rpy="0 0 0"/>
     <mass value="0.19887986740045518"/>
     <inertia ixx="0.000275" iyy="0.000317" izz="0.000305" ixy="0.000141" iyz="-2.3e-05" ixz="-2.5e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.187732 0.021321 -0.167806" rpy="0 0 0"/>
+    <origin xyz="-0.171094 0.02067 -0.228457" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_front_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.187732 0.021321 -0.167806" rpy="0 0 0"/>
+    <origin xyz="-0.171094 0.02067 -0.228457" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_front_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1140,19 +1140,19 @@
 
 <link name="solenoid_1">
   <inertial>
-    <origin xyz="0.044637722314546685 0.05148693378470888 -0.016016233109602512" rpy="0 0 0"/>
+    <origin xyz="0.04463740492204729 0.051487032412224014 -0.0160165134339125" rpy="0 0 0"/>
     <mass value="5.171464967346686"/>
     <inertia ixx="0.009642" iyy="0.008737" izz="0.012138" ixy="-0.003164" iyz="0.001157" ixz="0.000999"/>
   </inertial>
   <visual>
-    <origin xyz="-0.14374 -0.010555 -0.138929" rpy="0 0 0"/>
+    <origin xyz="-0.127102 -0.011206 -0.19958" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.14374 -0.010555 -0.138929" rpy="0 0 0"/>
+    <origin xyz="-0.127102 -0.011206 -0.19958" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1161,19 +1161,19 @@
 
 <link name="solenoid_back_1">
   <inertial>
-    <origin xyz="0.035085130229461275 -0.037127388130261396 -0.025450109160415235" rpy="0 0 0"/>
+    <origin xyz="0.03508481283695289 -0.03712728950275043 -0.02544938948472325" rpy="0 0 0"/>
     <mass value="0.20130926992928005"/>
     <inertia ixx="0.000278" iyy="0.000321" izz="0.000305" ixy="0.000141" iyz="-2.3e-05" ixz="-2.6e-05"/>
   </inertial>
   <visual>
-    <origin xyz="-0.20996 -0.162936 -0.131161" rpy="0 0 0"/>
+    <origin xyz="-0.193322 -0.163587 -0.191811" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_back_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.20996 -0.162936 -0.131161" rpy="0 0 0"/>
+    <origin xyz="-0.193322 -0.163587 -0.191811" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/solenoid_back_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
@@ -1182,33 +1182,1335 @@
 
 <link name="plunger_1">
   <inertial>
-    <origin xyz="0.08417365393536333 0.09709013936137807 -0.0302023347989393" rpy="0 0 0"/>
+    <origin xyz="0.08417433654286134 0.09709023798889323 -0.030202615123249066" rpy="0 0 0"/>
     <mass value="0.1925921960356679"/>
     <inertia ixx="0.000718" iyy="0.00056" izz="0.001133" ixy="-0.000549" iyz="0.000197" ixz="0.000171"/>
   </inertial>
   <visual>
-    <origin xyz="-0.133961 0.000725 -0.142438" rpy="0 0 0"/>
+    <origin xyz="-0.117322 7.4e-05 -0.203089" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/plunger_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
     <material name="silver"/>
   </visual>
   <collision>
-    <origin xyz="-0.133961 0.000725 -0.142438" rpy="0 0 0"/>
+    <origin xyz="-0.117322 7.4e-05 -0.203089" rpy="0 0 0"/>
     <geometry>
       <mesh filename="package://iris_robot_description/meshes/plunger_1.stl" scale="0.001 0.001 0.001"/>
     </geometry>
   </collision>
 </link>
 
+<link name="upper_kicker_holder_1">
+  <inertial>
+    <origin xyz="0.005285037380216517 0.03396194538856647 0.0012654813680156862" rpy="0 0 0"/>
+    <mass value="0.21538253824079748"/>
+    <inertia ixx="8.5e-05" iyy="7.5e-05" izz="0.000152" ixy="-3.1e-05" iyz="-3e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.134906 -0.000204 -0.412228" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/upper_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.134906 -0.000204 -0.412228" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/upper_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bottom_kicker_holder_1">
+  <inertial>
+    <origin xyz="-0.00461890747359861 0.022196135026507705 -0.0025487416099396754" rpy="0 0 0"/>
+    <mass value="0.12130112527871924"/>
+    <inertia ixx="2e-05" iyy="2.1e-05" izz="3.5e-05" ixy="4e-06" iyz="2e-06" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.134548 0.00728 -0.260412" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/bottom_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.134548 0.00728 -0.260412" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/bottom_kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pg_ash_1">
+  <inertial>
+    <origin xyz="-0.00012704868741666986 0.00043732644914830365 0.006400704645238675" rpy="0 0 0"/>
+    <mass value="0.003796743520201223"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.158295 -0.055395 -0.414458" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pg_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.158295 -0.055395 -0.414458" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pg_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pg_motor_1">
+  <inertial>
+    <origin xyz="0.008770134036005711 0.0077272013867413225 -0.0625141661525287" rpy="0 0 0"/>
+    <mass value="0.2728957031211328"/>
+    <inertia ixx="0.000275" iyy="0.000275" izz="4.9e-05" ixy="-0.0" iyz="-9e-06" ixz="-3e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.149194 -0.044771 -0.415003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pg_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.149194 -0.044771 -0.415003" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pg_motor_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="linear_guide_1">
+  <inertial>
+    <origin xyz="0.0005361882945338625 -0.002818918430842818 -0.07448631847846587" rpy="0 0 0"/>
+    <mass value="0.03912848551791539"/>
+    <inertia ixx="9.4e-05" iyy="9.4e-05" izz="1e-06" ixy="0.0" iyz="-5e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.121227 -0.011844 -0.410685" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/linear_guide_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.121227 -0.011844 -0.410685" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/linear_guide_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="leadscrew_8mm_1">
+  <inertial>
+    <origin xyz="-0.00020041112395677296 -0.004185237058466941 -0.08489652521009977" rpy="0 0 0"/>
+    <mass value="0.023071856447963602"/>
+    <inertia ixx="5.6e-05" iyy="5.6e-05" izz="0.0" ixy="-0.0" iyz="-3e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.138802 -0.032826 -0.419621" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/leadscrew_8mm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.138802 -0.032826 -0.419621" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/leadscrew_8mm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="lead_copper_nut_8mm_1">
+  <inertial>
+    <origin xyz="-0.006078427755366489 0.0051983819580767865 -0.000173740240131115" rpy="0 0 0"/>
+    <mass value="0.003336640004284237"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.143802 -0.023334 -0.330969" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/lead_copper_nut_8mm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.143802 -0.023334 -0.330969" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/lead_copper_nut_8mm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="Guide_MGN12H1R100Z0HM_FILE_1">
+  <inertial>
+    <origin xyz="-0.0003451506613813965 -0.000402406403915442 2.7392536308512572e-05" rpy="0 0 0"/>
+    <mass value="0.024679381178204528"/>
+    <inertia ixx="5e-06" iyy="5e-06" izz="2e-06" ixy="1e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.119088 -0.005885 -0.335892" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/Guide_MGN12H1R100Z0HM_FILE_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.119088 -0.005885 -0.335892" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/Guide_MGN12H1R100Z0HM_FILE_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="bracket_linear_1">
+  <inertial>
+    <origin xyz="-0.002120009748812962 0.013273346661411273 -0.0006491634818506231" rpy="0 0 0"/>
+    <mass value="0.06549272568481782"/>
+    <inertia ixx="1.6e-05" iyy="1.7e-05" izz="1.5e-05" ixy="4e-06" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.129595 -0.003478 -0.335986" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/bracket_linear_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.129595 -0.003478 -0.335986" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/bracket_linear_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kicker_holder_1">
+  <inertial>
+    <origin xyz="0.0006929909787817823 -0.015019707353856424 -0.009274469123880968" rpy="0 0 0"/>
+    <mass value="0.10277471003580618"/>
+    <inertia ixx="3.5e-05" iyy="3.7e-05" izz="4.5e-05" ixy="6e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.108262 -0.009076 -0.345773" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.108262 -0.009076 -0.345773" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kicker_ash_1">
+  <inertial>
+    <origin xyz="3.913463647031712e-07 4.1078691444262905e-07 -2.5899183597744013e-07" rpy="0 0 0"/>
+    <mass value="0.0035342917352884913"/>
+    <inertia ixx="0.0" iyy="0.0" izz="1e-06" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.100235 0.016123 -0.337022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.100235 0.016123 -0.337022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kicker_arm_1">
+  <inertial>
+    <origin xyz="0.001016314261362991 -0.005105669741940395 -0.1352786157941563" rpy="0 0 0"/>
+    <mass value="0.33105085480877156"/>
+    <inertia ixx="0.00291" iyy="0.002904" izz="4.9e-05" ixy="1e-06" iyz="-0.000137" ixz="-3e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.100235 0.016123 -0.337022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_arm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.100235 0.016123 -0.337022" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_arm_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="kicker_foot_1">
+  <inertial>
+    <origin xyz="-0.0004384859573335481 -0.019670276079344462 0.0019914015508846195" rpy="0 0 0"/>
+    <mass value="0.053195345993705796"/>
+    <inertia ixx="1e-05" iyy="9e-06" izz="1.5e-05" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.087483 0.024679 -0.060137" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_foot_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.087483 0.024679 -0.060137" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/kicker_foot_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_elbow_bottom_1">
+  <inertial>
+    <origin xyz="0.0016795989289027091 0.011086922638964464 0.018272503957397324" rpy="0 0 0"/>
+    <mass value="0.14262643256515464"/>
+    <inertia ixx="6.6e-05" iyy="0.000107" izz="9.9e-05" ixy="7e-06" iyz="1.4e-05" ixz="2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.044336 -0.076842 -0.136189" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_elbow_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.044336 -0.076842 -0.136189" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_elbow_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_holder_1">
+  <inertial>
+    <origin xyz="0.005029093471132111 -0.039579022746544054 0.010344846169884875" rpy="0 0 0"/>
+    <mass value="0.036097995507589846"/>
+    <inertia ixx="5.2e-05" iyy="1.7e-05" izz="6.5e-05" ixy="-1.5e-05" iyz="1e-05" ixz="3e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.062551 -0.079383 -0.205522" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.062551 -0.079383 -0.205522" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_holder_bend_1">
+  <inertial>
+    <origin xyz="0.003014498216025299 -0.0014557338028656254 -0.0006222899981459806" rpy="0 0 0"/>
+    <mass value="0.01712936743928798"/>
+    <inertia ixx="4e-06" iyy="1e-06" izz="5e-06" ixy="-2e-06" iyz="1e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.054432 0.016556 -0.226349" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_holder_bend_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.054432 0.016556 -0.226349" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_holder_bend_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_bracket_1">
+  <inertial>
+    <origin xyz="0.006059963171692953 -0.005528990406331098 -0.014388132359986289" rpy="0 0 0"/>
+    <mass value="0.059211631265182314"/>
+    <inertia ixx="2e-05" iyy="1.1e-05" izz="1.6e-05" ixy="-4e-06" iyz="-0.0" ixz="4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.049528 0.019343 -0.223226" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.049528 0.019343 -0.223226" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_1">
+  <inertial>
+    <origin xyz="-0.03769929292450762 0.010629825224923782 -0.03604551468062059" rpy="0 0 0"/>
+    <mass value="0.07948474513987386"/>
+    <inertia ixx="2.8e-05" iyy="5.3e-05" izz="4.7e-05" ixy="1.1e-05" iyz="6e-06" ixz="-1.6e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.048792 0.021476 -0.214099" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.048792 0.021476 -0.214099" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_elbow_top_1">
+  <inertial>
+    <origin xyz="0.020056371411892752 -0.0008061501388364756 0.012403835863773027" rpy="0 0 0"/>
+    <mass value="0.10243953790049716"/>
+    <inertia ixx="2e-05" iyy="3e-05" izz="2.3e-05" ixy="2e-06" iyz="-2e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.065623 -0.071749 -0.176497" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_elbow_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.065623 -0.071749 -0.176497" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_elbow_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_ash_1">
+  <inertial>
+    <origin xyz="0.006533072149322944 -0.001983416179064241 0.003595919685853266" rpy="0 0 0"/>
+    <mass value="0.0014062013037782104"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.043695 0.026127 -0.201998" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.043695 0.026127 -0.201998" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_dribble_wheel_1">
+  <inertial>
+    <origin xyz="0.0024987778071346445 -0.0008332662174196717 0.0013725451105010278" rpy="0 0 0"/>
+    <mass value="0.1168915986300757"/>
+    <inertia ixx="6.1e-05" iyy="4.5e-05" izz="4.9e-05" ixy="-6e-06" iyz="-3e-06" ixz="1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="0.025775 0.032099 -0.211841" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="0.025775 0.032099 -0.211841" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_dribble_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_elbow_bottom_1">
+  <inertial>
+    <origin xyz="0.009842419706936806 0.004111136951574695 0.018597008973108925" rpy="0 0 0"/>
+    <mass value="0.1426263972382084"/>
+    <inertia ixx="0.000102" iyy="6.9e-05" izz="0.0001" ixy="1.3e-05" iyz="6e-06" ixz="1.3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.224769 0.153228 -0.146749" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_elbow_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.224769 0.153228 -0.146749" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_elbow_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_elbow_top_1">
+  <inertial>
+    <origin xyz="0.007872206416007221 -0.017849735426038266 0.013273501570023077" rpy="0 0 0"/>
+    <mass value="0.10243946441293669"/>
+    <inertia ixx="3e-05" iyy="2e-05" izz="2.3e-05" ixy="3e-06" iyz="-0.0" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.208845 0.135448 -0.185916" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_elbow_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.208845 0.135448 -0.185916" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_elbow_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_holder_1">
+  <inertial>
+    <origin xyz="-0.028479196266190415 -0.034711469266295925 0.010073522233034066" rpy="0 0 0"/>
+    <mass value="0.03609799550759068"/>
+    <inertia ixx="2.2e-05" iyy="4.7e-05" izz="6.6e-05" ixy="-1.9e-05" iyz="4e-06" ixz="8e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.206386 0.136865 -0.216775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.206386 0.136865 -0.216775" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_holder_bend_1">
+  <inertial>
+    <origin xyz="-0.0018694723130671248 0.002726618917465673 -0.0008178896632536625" rpy="0 0 0"/>
+    <mass value="0.017129367439287932"/>
+    <inertia ixx="2e-06" iyy="4e-06" izz="5e-06" ixy="-2e-06" iyz="0.0" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.121315 0.176829 -0.234949" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_holder_bend_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.121315 0.176829 -0.234949" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_holder_bend_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_bracket_1">
+  <inertial>
+    <origin xyz="-0.005722350550160876 0.004557181355160422 -0.014859123176853728" rpy="0 0 0"/>
+    <mass value="0.059211631265187546"/>
+    <inertia ixx="1.3e-05" iyy="1.9e-05" izz="1.6e-05" ixy="-5e-06" iyz="3e-06" ixz="-1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.117958 0.172542 -0.231495" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.117958 0.172542 -0.231495" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_1">
+  <inertial>
+    <origin xyz="0.017496602064585934 -0.037247957775624646 -0.03376296619661573" rpy="0 0 0"/>
+    <mass value="0.07948474513987185"/>
+    <inertia ixx="4.8e-05" iyy="3e-05" izz="4.9e-05" ixy="1.5e-05" iyz="-1.4e-05" ixz="8e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.11616 0.172507 -0.222267" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.11616 0.172507 -0.222267" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_ash_1">
+  <inertial>
+    <origin xyz="-0.0031352552008584444 0.006311553383717888 0.0031442268385702965" rpy="0 0 0"/>
+    <mass value="0.0014062013037781998"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.111391 0.168612 -0.209694" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.111391 0.168612 -0.209694" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_ash_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_dribble_wheel_1">
+  <inertial>
+    <origin xyz="-0.001267649558342604 0.0023924619673422465 0.0012212258502672657" rpy="0 0 0"/>
+    <mass value="0.11689159863010345"/>
+    <inertia ixx="4.8e-05" iyy="6e-05" izz="4.7e-05" ixy="-9e-06" iyz="8e-06" ixz="-4e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.102303 0.151456 -0.218456" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.102303 0.151456 -0.218456" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_dribble_wheel_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_bottom_rear_1">
+  <inertial>
+    <origin xyz="0.0016777428076864553 0.000695401463311679 -0.0005531039511871283" rpy="0 0 0"/>
+    <mass value="0.0009705022308178392"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.309304 -0.15882 -0.24146" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_bottom_rear_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.309304 -0.15882 -0.24146" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_bottom_rear_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_bottom_front_1">
+  <inertial>
+    <origin xyz="0.0012873535116356694 -0.001319947309507928 -0.00045286956108181453" rpy="0 0 0"/>
+    <mass value="0.0009705022308176395"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.268232 0.052899 -0.251994" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_bottom_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.268232 0.052899 -0.251994" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_bottom_front_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_1">
+  <inertial>
+    <origin xyz="-0.044612373027446806 -0.09396498118882597 0.161485473455151" rpy="0 0 0"/>
+    <mass value="0.09544466759221429"/>
+    <inertia ixx="0.000946" iyy="0.000651" izz="0.000349" ixy="-5.4e-05" iyz="-3.4e-05" ixz="9.9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.310733 -0.158777 -0.246169" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.310733 -0.158777 -0.246169" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_rear_wing_1">
+  <inertial>
+    <origin xyz="-0.010011338990663976 0.0009764613871435235 0.024221175494231306" rpy="0 0 0"/>
+    <mass value="0.01807348886734018"/>
+    <inertia ixx="0.000151" iyy="0.00015" izz="1.5e-05" ixy="-7e-06" iyz="3.3e-05" ixz="3.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.279758 -0.133821 -0.402733" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_rear_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.279758 -0.133821 -0.402733" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_rear_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_front_wing_1">
+  <inertial>
+    <origin xyz="-0.004933810366101826 -0.013506467911656765 -0.021934269043087595" rpy="0 0 0"/>
+    <mass value="0.018073488867344896"/>
+    <inertia ixx="0.000157" iyy="0.000136" izz="2.4e-05" ixy="4e-06" iyz="-5.5e-05" ixz="1.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.252938 0.004433 -0.409612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_front_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.252938 0.004433 -0.409612" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_front_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="left_body_top_1">
+  <inertial>
+    <origin xyz="-5.1650832214533704e-05 0.00027945864372358464 0.005407357001746882" rpy="0 0 0"/>
+    <mass value="0.0016629939199179805"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.242601 -0.076998 -0.560883" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.242601 -0.076998 -0.560883" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/left_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_bottom_right_1">
+  <inertial>
+    <origin xyz="-0.001767839739668979 -0.0004921932236538265 -0.00048635748764516706" rpy="0 0 0"/>
+    <mass value="0.0009705022308182061"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.028788 -0.062191 -0.246886" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_bottom_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.028788 -0.062191 -0.246886" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_bottom_right_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_bottom_left_1">
+  <inertial>
+    <origin xyz="-0.0002161736337201181 -0.0018380805152600765 -0.0004241485527650135" rpy="0 0 0"/>
+    <mass value="0.0009705022308171761"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="-0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.192646 0.079921 -0.253505" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_bottom_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.192646 0.079921 -0.253505" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_bottom_left_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_1">
+  <inertial>
+    <origin xyz="0.09854855167697697 -0.04465835209321972 0.15865603753076118" rpy="0 0 0"/>
+    <mass value="0.08943711775147879"/>
+    <inertia ixx="0.000774" iyy="0.00081" izz="0.000351" ixy="0.00015" iyz="-9.8e-05" ixz="-7.3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.027852 -0.061333 -0.251641" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.027852 -0.061333 -0.251641" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_left_wing_1">
+  <inertial>
+    <origin xyz="-0.008359962419041106 0.009308339377706781 -0.023050523146433022" rpy="0 0 0"/>
+    <mass value="0.0180734888673488"/>
+    <inertia ixx="0.000141" iyy="0.000157" izz="1.8e-05" ixy="3e-06" iyz="8e-06" ixz="-4.9e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.073014 -0.062604 -0.406732" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_left_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.073014 -0.062604 -0.406732" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_left_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_right_wing_1">
+  <inertial>
+    <origin xyz="0.011440845251769166 -0.007870307899368024 -0.022261328761870036" rpy="0 0 0"/>
+    <mass value="0.01806952330706464"/>
+    <inertia ixx="0.000154" iyy="0.000138" izz="2.4e-05" ixy="8e-06" iyz="-5.2e-05" ixz="2e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.179484 0.029736 -0.411032" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_right_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.179484 0.029736 -0.411032" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_right_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="front_body_top_1">
+  <inertial>
+    <origin xyz="5.634502234644345e-05 0.0003166905351361174 0.0054053419212116705" rpy="0 0 0"/>
+    <mass value="0.001662993919920523"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="0.0" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.142717 -0.042591 -0.562815" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.142717 -0.042591 -0.562815" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/front_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="pc_body_1">
+  <inertial>
+    <origin xyz="0.05784220583987831 -0.03839895305148018 0.005760745423043695" rpy="0 0 0"/>
+    <mass value="2.009051513989486"/>
+    <inertia ixx="0.014367" iyy="0.013541" izz="0.027814" ixy="-0.003033" iyz="0.000713" ixz="0.000181"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.150001 -0.141255 -0.238698" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pc_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.150001 -0.141255 -0.238698" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/pc_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_rear_bottom_1">
+  <inertial>
+    <origin xyz="0.000477172476586768 0.0017365468789691252 -0.0006017544818588405" rpy="0 0 0"/>
+    <mass value="0.0009705022308176249"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.24909 -0.211043 -0.239028" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_rear_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.24909 -0.211043 -0.239028" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_rear_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_front_bottom_1">
+  <inertial>
+    <origin xyz="-0.0014658283256590021 0.0010669325618192504 -0.0005638882146745405" rpy="0 0 0"/>
+    <mass value="0.0009705022308171722"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="-0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.044974 -0.140731 -0.242976" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_front_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.044974 -0.140731 -0.242976" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_front_bottom_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_1">
+  <inertial>
+    <origin xyz="-0.09411069341666012 -0.05103644881682093 0.15948668526775805" rpy="0 0 0"/>
+    <mass value="0.09544466759221533"/>
+    <inertia ixx="0.000675" iyy="0.000931" izz="0.000339" ixy="-9.8e-05" iyz="6.5e-05" ixz="-2.8e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.24863 -0.212639 -0.24366" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.24863 -0.212639 -0.24366" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_front_wing_1">
+  <inertial>
+    <origin xyz="-0.011658768895758051 -0.007674668721237704 -0.022216714146515437" rpy="0 0 0"/>
+    <mass value="0.018069523307061994"/>
+    <inertia ixx="0.00014" iyy="0.000158" izz="1.9e-05" ixy="-1e-06" iyz="-2e-06" ixz="-5.1e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.087794 -0.138794 -0.402941" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_front_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.087794 -0.138794 -0.402941" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_front_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_rear_wing_1">
+  <inertial>
+    <origin xyz="0.005340426273962279 -0.002471008743522324 0.0008355204294086538" rpy="0 0 0"/>
+    <mass value="0.010593373804878374"/>
+    <inertia ixx="0.000125" iyy="0.000128" izz="1.3e-05" ixy="-6e-06" iyz="2.5e-05" ixz="3e-05"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.221084 -0.184709 -0.400363" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_rear_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.221084 -0.184709 -0.400363" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_rear_wing_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="right_body_top_1">
+  <inertial>
+    <origin xyz="3.458666855041259e-05 0.00020413940884239645 0.005411133011489544" rpy="0 0 0"/>
+    <mass value="0.001662993919920593"/>
+    <inertia ixx="0.0" iyy="0.0" izz="0.0" ixy="-0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.162815 -0.146196 -0.55766" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.162815 -0.146196 -0.55766" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/right_body_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_disk_1">
+  <inertial>
+    <origin xyz="-0.06026548144064808 0.0014955721046751719 6.853853352650763e-05" rpy="0 0 0"/>
+    <mass value="0.5065669335234948"/>
+    <inertia ixx="0.000452" iyy="0.000453" izz="0.000897" ixy="0.0" iyz="2.2e-05" ixz="1e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.242988 -0.087331 -0.565082" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_disk_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.242988 -0.087331 -0.565082" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_disk_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_holder_1">
+  <inertial>
+    <origin xyz="-0.03037092250536308 0.026467166432856806 0.008778849351371187" rpy="0 0 0"/>
+    <mass value="0.08475859421346302"/>
+    <inertia ixx="6e-05" iyy="6.1e-05" izz="0.000115" ixy="4e-06" iyz="3e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.212936 -0.062828 -0.570366" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.212936 -0.062828 -0.570366" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_holder_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_bracket_1">
+  <inertial>
+    <origin xyz="-0.030093968481836236 0.026099483179821553 0.00028669943956483035" rpy="0 0 0"/>
+    <mass value="0.01725117527569059"/>
+    <inertia ixx="1.1e-05" iyy="1.1e-05" izz="2.2e-05" ixy="1e-06" iyz="1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.212983 -0.063812 -0.590341" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.212983 -0.063812 -0.590341" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="logitech_cam_1">
+  <inertial>
+    <origin xyz="0.0004895201252512471 7.000850708048512e-05 0.004216071390448106" rpy="0 0 0"/>
+    <mass value="0.0045134240193704135"/>
+    <inertia ixx="1e-06" iyy="1e-06" izz="2e-06" ixy="-1e-06" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182589 -0.089788 -0.589133" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/logitech_cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182589 -0.089788 -0.589133" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/logitech_cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_bracket_2_1">
+  <inertial>
+    <origin xyz="-0.03038528254158704 0.02600959833374937 -0.00020945105734382352" rpy="0 0 0"/>
+    <mass value="0.011472718369723507"/>
+    <inertia ixx="8e-06" iyy="8e-06" izz="1.5e-05" ixy="1e-06" iyz="0.0" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.21299 -0.06396 -0.593338" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.21299 -0.06396 -0.593338" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_2_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_bracket_3_1">
+  <inertial>
+    <origin xyz="0.007331721853769291 0.03945445977402476 0.0005408224862920585" rpy="0 0 0"/>
+    <mass value="0.024774989242084083"/>
+    <inertia ixx="1.6e-05" iyy="1.7e-05" izz="3.3e-05" ixy="2e-06" iyz="1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.175279 -0.050758 -0.59608" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.175279 -0.050758 -0.59608" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_3_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_bracket_4_1">
+  <inertial>
+    <origin xyz="0.007334771290890912 0.039384106782232024 0.0005442161047034544" rpy="0 0 0"/>
+    <mass value="0.028681795924308424"/>
+    <inertia ixx="1.9e-05" iyy="2e-05" izz="3.8e-05" ixy="2e-06" iyz="1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.17529 -0.051004 -0.601074" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.17529 -0.051004 -0.601074" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_bracket_4_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_lens_1">
+  <inertial>
+    <origin xyz="9.580691941130093e-05 0.0019981436433442468 0.04053224113294496" rpy="0 0 0"/>
+    <mass value="0.6300409638681573"/>
+    <inertia ixx="0.000306" iyy="0.000305" izz="0.000115" ixy="-0.0" iyz="-9e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182624 -0.090526 -0.604114" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_lens_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182624 -0.090526 -0.604114" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_lens_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_lens_top_1">
+  <inertial>
+    <origin xyz="5.190155898060489e-06 9.841998593684842e-05 0.001997679059523083" rpy="0 0 0"/>
+    <mass value="0.024686163833010855"/>
+    <inertia ixx="7e-06" iyy="7e-06" izz="1.3e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182797 -0.094145 -0.677525" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_lens_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182797 -0.094145 -0.677525" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_lens_top_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_mirror_1">
+  <inertial>
+    <origin xyz="7.034376120101937e-05 0.0014698194806125747 0.029818499559628564" rpy="0 0 0"/>
+    <mass value="0.2665032290295246"/>
+    <inertia ixx="0.000118" iyy="0.000118" izz="9.1e-05" ixy="-0.0" iyz="-1e-06" ixz="-0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182807 -0.094342 -0.68152" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_mirror_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182807 -0.094342 -0.68152" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_mirror_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="360_cam_1">
+  <inertial>
+    <origin xyz="-9.741554996112178e-06 -0.00019428308834539 -0.003940363454075779" rpy="0 0 0"/>
+    <mass value="0.02082537649419304"/>
+    <inertia ixx="2e-06" iyy="2e-06" izz="5e-06" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182943 -0.097173 -0.73895" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/360_cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182943 -0.097173 -0.73895" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/360_cam_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_top_cover_1">
+  <inertial>
+    <origin xyz="1.1077384721475125e-05 0.0002401925748613254 0.0048732071773995855" rpy="0 0 0"/>
+    <mass value="0.03316736444027416"/>
+    <inertia ixx="7e-06" iyy="7e-06" izz="1.4e-05" ixy="0.0" iyz="0.0" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.182943 -0.097173 -0.73895" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_top_cover_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.182943 -0.097173 -0.73895" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_top_cover_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_acrylic_1">
+  <inertial>
+    <origin xyz="0.016049536114830565 -0.03976836317704183 0.09203150161608964" rpy="0 0 0"/>
+    <mass value="0.3974580460938378"/>
+    <inertia ixx="0.001787" iyy="0.001785" izz="0.000938" ixy="-0.0" iyz="-4.2e-05" ixz="-2e-06"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.1669 -0.133596 -0.576998" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_acrylic_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.1669 -0.133596 -0.576998" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_acrylic_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
+<link name="camera_outer_top_cover_1">
+  <inertial>
+    <origin xyz="-0.04617411478699665 0.008591955360722825 -0.00031498874149749057" rpy="0 0 0"/>
+    <mass value="0.12691684441050852"/>
+    <inertia ixx="7.5e-05" iyy="7.5e-05" izz="0.000141" ixy="0.0" iyz="3e-06" ixz="0.0"/>
+  </inertial>
+  <visual>
+    <origin xyz="-0.229363 -0.089861 -0.759226" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_outer_top_cover_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+    <material name="silver"/>
+  </visual>
+  <collision>
+    <origin xyz="-0.229363 -0.089861 -0.759226" rpy="0 0 0"/>
+    <geometry>
+      <mesh filename="package://iris_robot_description/meshes/camera_outer_top_cover_1.stl" scale="0.001 0.001 0.001"/>
+    </geometry>
+  </collision>
+</link>
+
 <joint name="Rigid 1" type="fixed">
-  <origin xyz="0.298167 -0.092634 -0.02819" rpy="0 0 0"/>
+  <origin xyz="0.281529 -0.091983 0.03246" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_motor_bracket_1"/>
 </joint>
 
 <joint name="Rigid 2" type="fixed">
-  <origin xyz="-0.055793 0.012049 0.075129" rpy="0 0 0"/>
+  <origin xyz="-0.055793 0.012049 0.07513" rpy="0 0 0"/>
   <parent link="left_motor_bracket_1"/>
   <child link="left_motor_1"/>
 </joint>
@@ -1221,7 +2523,7 @@
 </joint>
 
 <joint name="Rigid 4" type="fixed">
-  <origin xyz="-0.019832 -0.009825 0.062476" rpy="0 0 0"/>
+  <origin xyz="-0.019832 -0.009825 0.062477" rpy="0 0 0"/>
   <parent link="left_motor_bracket_1"/>
   <child link="left_motor_bracket_cover_1"/>
 </joint>
@@ -1233,31 +2535,31 @@
 </joint>
 
 <joint name="Rigid 6" type="fixed">
-  <origin xyz="0.001058 0.007868 0.023174" rpy="0 0 0"/>
+  <origin xyz="0.017927 0.013205 0.010213" rpy="0 0 0"/>
   <parent link="left_ash_to_omni_connector_front_1"/>
   <child link="front_right_omni_1"/>
 </joint>
 
 <joint name="Rigid 7" type="fixed">
-  <origin xyz="0.012748 0.030354 0.007496" rpy="0 0 0"/>
+  <origin xyz="0.010821 0.028618 -0.014283" rpy="0 0 0"/>
   <parent link="left_ash_to_omni_connector_front_1"/>
   <child link="mid_right_omni_1"/>
 </joint>
 
 <joint name="Rigid 8" type="fixed">
-  <origin xyz="0.000222 0.002949 -0.006494" rpy="0 0 0"/>
+  <origin xyz="-0.005198 0.001116 -0.004759" rpy="0 0 0"/>
   <parent link="mid_right_omni_1"/>
   <child link="left_ash_to_omni_connector_rear_1"/>
 </joint>
 
 <joint name="Rigid 9" type="fixed">
-  <origin xyz="-0.009139 0.015972 0.001877" rpy="0 0 0"/>
+  <origin xyz="-0.005753 0.017244 0.00342" rpy="0 0 0"/>
   <parent link="left_ash_to_omni_connector_rear_1"/>
   <child link="rear_right_omni_1"/>
 </joint>
 
 <joint name="Rigid 10" type="fixed">
-  <origin xyz="0.329052 0.138527 -0.039659" rpy="0 0 0"/>
+  <origin xyz="0.312414 0.139178 0.020992" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="rear_motor_bracket_1"/>
 </joint>
@@ -1269,50 +2571,50 @@
 </joint>
 
 <joint name="Rigid 12" type="fixed">
-  <origin xyz="-0.03944 0.034289 0.073995" rpy="0 0 0"/>
+  <origin xyz="-0.039441 0.034289 0.073995" rpy="0 0 0"/>
   <parent link="rear_motor_bracket_1"/>
   <child link="rear_motor_1"/>
 </joint>
 
 <joint name="rear_motor_revolute" type="continuous">
-  <origin xyz="-0.041486 0.030018 0.033661" rpy="0 0 0"/>
+  <origin xyz="-0.041487 0.030018 0.033661" rpy="0 0 0"/>
   <parent link="rear_motor_bracket_1"/>
   <child link="rear_motor_ash_1"/>
   <axis xyz="0.650075 0.758872 -0.038945"/>
 </joint>
 
 <joint name="Rigid 14" type="fixed">
-  <origin xyz="0.063382 0.07399 -0.003797" rpy="0 0 0"/>
+  <origin xyz="0.063383 0.07399 -0.003797" rpy="0 0 0"/>
   <parent link="rear_motor_ash_1"/>
   <child link="rear_ash_to_omni_connector_rear_1"/>
 </joint>
 
 <joint name="Rigid 15" type="fixed">
-  <origin xyz="0.002225 -0.008642 0.022813" rpy="0 0 0"/>
+  <origin xyz="0.002225 -0.008642 0.022812" rpy="0 0 0"/>
   <parent link="rear_ash_to_omni_connector_rear_1"/>
   <child link="front_rear_omni_1"/>
 </joint>
 
 <joint name="Rigid 16" type="fixed">
-  <origin xyz="-0.015602 -0.018213 0.000935" rpy="0 0 0"/>
+  <origin xyz="-0.015602 -0.018213 0.000934" rpy="0 0 0"/>
   <parent link="rear_ash_to_omni_connector_rear_1"/>
   <child link="mid_rear_omni_1"/>
 </joint>
 
 <joint name="Rigid 17" type="fixed">
-  <origin xyz="-0.00325 -0.003794 0.000194" rpy="0 0 0"/>
+  <origin xyz="-0.00325 -0.003794 0.000195" rpy="0 0 0"/>
   <parent link="mid_rear_omni_1"/>
   <child link="rear_ash_to_omni_connector_2_rear_1"/>
 </joint>
 
 <joint name="Rigid 18" type="fixed">
-  <origin xyz="-0.011701 -0.01366 0.000701" rpy="0 0 0"/>
+  <origin xyz="-0.011702 -0.01366 0.000701" rpy="0 0 0"/>
   <parent link="rear_ash_to_omni_connector_2_rear_1"/>
   <child link="rear_rear_omni_1"/>
 </joint>
 
 <joint name="Rigid 19" type="fixed">
-  <origin xyz="0.03448 0.034651 -0.033842" rpy="0 0 0"/>
+  <origin xyz="0.017841 0.035302 0.026809" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_motor_bracket_1"/>
 </joint>
@@ -1324,7 +2626,7 @@
 </joint>
 
 <joint name="right_motor_revolute" type="continuous">
-  <origin xyz="0.014642 0.049811 0.032552" rpy="0 0 0"/>
+  <origin xyz="0.014643 0.049811 0.032552" rpy="0 0 0"/>
   <parent link="right_motor_bracket_1"/>
   <child link="right_motor_ash_1"/>
   <axis xyz="0.983098 -0.182958 0.006697"/>
@@ -1343,169 +2645,169 @@
 </joint>
 
 <joint name="Rigid 24" type="fixed">
-  <origin xyz="0.01928 -0.027652 -0.001928" rpy="0 0 0"/>
+  <origin xyz="0.01928 -0.027652 -0.001929" rpy="0 0 0"/>
   <parent link="right_ash_to_omni_connector_1"/>
   <child link="right_mid_right_omni_1"/>
 </joint>
 
 <joint name="Rigid 25" type="fixed">
-  <origin xyz="0.007936 0.027171 0.025319" rpy="0 0 0"/>
+  <origin xyz="0.007935 0.027171 0.02532" rpy="0 0 0"/>
   <parent link="right_mid_right_omni_1"/>
   <child link="right_ash_to_omni_connector_2_1"/>
 </joint>
 
 <joint name="Rigid 26" type="fixed">
-  <origin xyz="0.016725 -0.009346 -0.022824" rpy="0 0 0"/>
+  <origin xyz="0.016726 -0.009346 -0.022825" rpy="0 0 0"/>
   <parent link="right_ash_to_omni_connector_2_1"/>
   <child link="right_rear_right_omni_1"/>
 </joint>
 
 <joint name="Rigid 27" type="fixed">
-  <origin xyz="0.269518 0.258634 -0.015402" rpy="0 0 0"/>
+  <origin xyz="0.25288 0.259286 0.045248" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="back_stand_1"/>
 </joint>
 
 <joint name="Rigid 28" type="fixed">
-  <origin xyz="0.379699 0.164475 -0.011021" rpy="0 0 0"/>
+  <origin xyz="0.36306 0.165126 0.04963" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="back_stand_2_1"/>
 </joint>
 
 <joint name="Rigid 29" type="fixed">
-  <origin xyz="0.338766 -0.138302 0.004001" rpy="0 0 0"/>
+  <origin xyz="0.322128 -0.137651 0.064652" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_stand_1"/>
 </joint>
 
 <joint name="Rigid 30" type="fixed">
-  <origin xyz="0.202044 -0.186517 0.006701" rpy="0 0 0"/>
+  <origin xyz="0.185405 -0.185865 0.067352" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_stand_2_1"/>
 </joint>
 
 <joint name="Rigid 31" type="fixed">
-  <origin xyz="-0.02364 0.171407 -0.01041" rpy="0 0 0"/>
+  <origin xyz="-0.040278 0.172059 0.050241" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_stand_1"/>
 </joint>
 
 <joint name="Rigid 32" type="fixed">
-  <origin xyz="-0.05018 0.029047 -0.003183" rpy="0 0 0"/>
+  <origin xyz="-0.066819 0.029698 0.057467" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_stand_2_1"/>
 </joint>
 
 <joint name="Rigid 33" type="fixed">
-  <origin xyz="0.037051 -0.003197 0.073159" rpy="0 0 0"/>
+  <origin xyz="0.037052 -0.003197 0.073159" rpy="0 0 0"/>
   <parent link="right_stand_2_1"/>
   <child link="right_dribble_base_1"/>
 </joint>
 
 <joint name="Rigid 34" type="fixed">
-  <origin xyz="-0.012317 0.038913 0.0712" rpy="0 0 0"/>
+  <origin xyz="-0.012316 0.038912 0.0712" rpy="0 0 0"/>
   <parent link="left_stand_2_1"/>
   <child link="left_dribble__base_1"/>
 </joint>
 
 <joint name="Rigid 35" type="fixed">
-  <origin xyz="0.152172 -0.069753 -0.036983" rpy="0 0 0"/>
+  <origin xyz="0.135533 -0.069101 0.023667" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_gp_stand_1"/>
 </joint>
 
 <joint name="Rigid 36" type="fixed">
-  <origin xyz="0.072009 -0.003058 -0.040082" rpy="0 0 0"/>
+  <origin xyz="0.05537 -0.002406 0.020569" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_gp_stand_1"/>
 </joint>
 
 <joint name="Rigid 37" type="fixed">
-  <origin xyz="-0.002312 0.000129 0.019523" rpy="0 0 0"/>
+  <origin xyz="-0.002311 0.000128 0.019523" rpy="0 0 0"/>
   <parent link="left_gp_stand_1"/>
   <child link="left_gp_1"/>
 </joint>
 
 <joint name="Rigid 38" type="fixed">
-  <origin xyz="-0.000412 -0.001494 0.019599" rpy="0 0 0"/>
+  <origin xyz="-0.000411 -0.001495 0.019598" rpy="0 0 0"/>
   <parent link="right_gp_stand_1"/>
   <child link="right_gp_1"/>
 </joint>
 
 <joint name="Rigid 39" type="fixed">
-  <origin xyz="0.05281 -0.025279 -0.000895" rpy="0 0 0"/>
+  <origin xyz="0.036172 -0.024628 0.059756" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_free_wheel_holder_1"/>
 </joint>
 
 <joint name="Rigid 40" type="fixed">
-  <origin xyz="0.011312 -0.024878 -0.000816" rpy="0 0 0"/>
+  <origin xyz="-0.005326 -0.024227 0.059834" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_free_wheel_holder_2_1"/>
 </joint>
 
 <joint name="Rigid 41" type="fixed">
-  <origin xyz="0.139205 -0.134175 0.004269" rpy="0 0 0"/>
+  <origin xyz="0.122567 -0.133524 0.06492" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_free_wheel_holder_1"/>
 </joint>
 
 <joint name="Rigid 42" type="fixed">
-  <origin xyz="0.13239 -0.093287 0.00227" rpy="0 0 0"/>
+  <origin xyz="0.115751 -0.092636 0.062921" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_free_wheel_holder_2_1"/>
 </joint>
 
 <joint name="Rigid 43" type="fixed">
-  <origin xyz="-0.012204 0.182905 -0.046046" rpy="0 0 0"/>
+  <origin xyz="-0.028843 0.183556 0.014604" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_pillar_1"/>
 </joint>
 
 <joint name="Rigid 44" type="fixed">
-  <origin xyz="0.168398 0.178381 -0.04625" rpy="0 0 0"/>
+  <origin xyz="0.151759 0.179032 0.014401" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_pillar_2_1"/>
 </joint>
 
 <joint name="Rigid 45" type="fixed">
-  <origin xyz="0.350933 -0.127494 -0.031603" rpy="0 0 0"/>
+  <origin xyz="0.334295 -0.126843 0.029048" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_pillar_1"/>
 </joint>
 
 <joint name="Rigid 46" type="fixed">
-  <origin xyz="0.263954 0.274607 -0.051219" rpy="0 0 0"/>
+  <origin xyz="0.247316 0.275258 0.009431" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="right_mid_pillar_1"/>
 </joint>
 
 <joint name="Rigid 47" type="fixed">
-  <origin xyz="0.398808 0.158751 -0.045827" rpy="0 0 0"/>
+  <origin xyz="0.38217 0.159402 0.014824" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_mid_pillar_1"/>
 </joint>
 
 <joint name="Rigid 48" type="fixed">
-  <origin xyz="0.317468 0.050833 -0.040314" rpy="0 0 0"/>
+  <origin xyz="0.300829 0.051484 0.020336" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="left_pillar_2_1"/>
 </joint>
 
 <joint name="Rigid 49" type="fixed">
-  <origin xyz="0.20565 0.240347 -0.049393" rpy="0 0 0"/>
+  <origin xyz="0.189012 0.240998 0.011258" rpy="0 0 0"/>
   <parent link="base_link"/>
   <child link="capacitor_1"/>
 </joint>
 
 <joint name="Rigid 50" type="fixed">
-  <origin xyz="0.10834 -0.146297 0.194757" rpy="0 0 0"/>
+  <origin xyz="0.10834 -0.146297 0.194758" rpy="0 0 0"/>
   <parent link="right_pillar_1"/>
   <child link="front_pillar_1"/>
 </joint>
 
 <joint name="Rigid 51" type="fixed">
-  <origin xyz="-0.060072 -0.106476 0.182138" rpy="0 0 0"/>
+  <origin xyz="-0.060073 -0.106476 0.182139" rpy="0 0 0"/>
   <parent link="right_mid_pillar_1"/>
   <child link="right_kicker_holder_1"/>
 </joint>
@@ -1529,17 +2831,395 @@
 </joint>
 
 <joint name="Rigid 55" type="fixed">
-  <origin xyz="0.006078 -0.005195 0.000242" rpy="0 0 0"/>
+  <origin xyz="0.006079 -0.005195 0.000241" rpy="0 0 0"/>
   <parent link="right_kicker_holder_1"/>
   <child link="solenoid_back_1"/>
 </joint>
 
-<joint name="Slider 56" type="prismatic">
-  <origin xyz="-0.009779 -0.01128 0.003509" rpy="0 0 0"/>
+<joint name="kicker_slider" type="prismatic">
+  <origin xyz="-0.00978 -0.01128 0.003509" rpy="0 0 0"/>
   <parent link="solenoid_1"/>
   <child link="plunger_1"/>
   <axis xyz="0.637681 0.735534 -0.228807"/>
-  <limit upper="0.0" lower="-0.05" effort="100" velocity="100"/>
+  <limit upper="0.0" lower="-0.08" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 57" type="fixed">
+  <origin xyz="0.055409 -0.037055 0.202866" rpy="0 0 0"/>
+  <parent link="front_pillar_1"/>
+  <child link="upper_kicker_holder_1"/>
+</joint>
+
+<joint name="Rigid 58" type="fixed">
+  <origin xyz="0.055051 -0.044539 0.05105" rpy="0 0 0"/>
+  <parent link="front_pillar_1"/>
+  <child link="bottom_kicker_holder_1"/>
+</joint>
+
+<joint name="Rigid 59" type="fixed">
+  <origin xyz="0.009101 0.010624 -0.000545" rpy="0 0 0"/>
+  <parent link="pg_motor_1"/>
+  <child link="pg_ash_1"/>
+</joint>
+
+<joint name="Rigid 60" type="fixed">
+  <origin xyz="0.014288 0.044567 0.002775" rpy="0 0 0"/>
+  <parent link="upper_kicker_holder_1"/>
+  <child link="pg_motor_1"/>
+</joint>
+
+<joint name="Rigid 61" type="fixed">
+  <origin xyz="0.04173 -0.025415 0.201323" rpy="0 0 0"/>
+  <parent link="front_pillar_1"/>
+  <child link="linear_guide_1"/>
+</joint>
+
+<joint name="Rigid 62" type="fixed">
+  <origin xyz="0.003896 0.032622 0.007393" rpy="0 0 0"/>
+  <parent link="upper_kicker_holder_1"/>
+  <child link="leadscrew_8mm_1"/>
+</joint>
+
+<joint name="Rigid 63" type="fixed">
+  <origin xyz="0.014207 0.019856 -0.005017" rpy="0 0 0"/>
+  <parent link="bracket_linear_1"/>
+  <child link="lead_copper_nut_8mm_1"/>
+</joint>
+
+<joint name="kicker_height_slider" type="prismatic">
+  <origin xyz="-0.002139 -0.005959 -0.074793" rpy="0 0 0"/>
+  <parent link="linear_guide_1"/>
+  <child link="Guide_MGN12H1R100Z0HM_FILE_1"/>
+  <axis xyz="-0.0 -0.051252 -0.998686"/>
+  <limit upper="0.04" lower="-0.04" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 65" type="fixed">
+  <origin xyz="0.010507 -0.002407 9.4e-05" rpy="0 0 0"/>
+  <parent link="Guide_MGN12H1R100Z0HM_FILE_1"/>
+  <child link="bracket_linear_1"/>
+</joint>
+
+<joint name="Rigid 66" type="fixed">
+  <origin xyz="-0.010826 0.003191 0.009881" rpy="0 0 0"/>
+  <parent link="Guide_MGN12H1R100Z0HM_FILE_1"/>
+  <child link="kicker_holder_1"/>
+</joint>
+
+<joint name="Rigid 67" type="fixed">
+  <origin xyz="-0.008027 -0.025199 -0.008751" rpy="0 0 0"/>
+  <parent link="kicker_holder_1"/>
+  <child link="kicker_ash_1"/>
+</joint>
+
+<joint name="kicker_revolute" type="revolute">
+  <origin xyz="0.0 0.0 0.0" rpy="0 0 0"/>
+  <parent link="kicker_ash_1"/>
+  <child link="kicker_arm_1"/>
+  <axis xyz="-0.759867 0.649376 -0.030217"/>
+  <limit upper="0.698132" lower="0.0" effort="100" velocity="100"/>
+</joint>
+
+<joint name="Rigid 71" type="fixed">
+  <origin xyz="-0.012752 -0.008556 -0.276885" rpy="0 0 0"/>
+  <parent link="kicker_arm_1"/>
+  <child link="kicker_foot_1"/>
+</joint>
+
+<joint name="Rigid 73" type="fixed">
+  <origin xyz="-0.014569 0.050341 0.005563" rpy="0 0 0"/>
+  <parent link="right_dribble_base_1"/>
+  <child link="right_elbow_bottom_1"/>
+</joint>
+
+<joint name="Rigid 75" type="fixed">
+  <origin xyz="0.003072 0.007634 0.029025" rpy="0 0 0"/>
+  <parent link="right_elbow_top_1"/>
+  <child link="right_dribble_holder_1"/>
+</joint>
+
+<joint name="Rigid 76" type="fixed">
+  <origin xyz="0.008119 -0.095939 0.020827" rpy="0 0 0"/>
+  <parent link="right_dribble_holder_1"/>
+  <child link="right_dribble_holder_bend_1"/>
+</joint>
+
+<joint name="Rigid 77" type="fixed">
+  <origin xyz="0.004904 -0.002787 -0.003123" rpy="0 0 0"/>
+  <parent link="right_dribble_holder_bend_1"/>
+  <child link="right_dribble_bracket_1"/>
+</joint>
+
+<joint name="Rigid 78" type="fixed">
+  <origin xyz="0.000736 -0.002133 -0.009127" rpy="0 0 0"/>
+  <parent link="right_dribble_bracket_1"/>
+  <child link="right_dribble_1"/>
+</joint>
+
+<joint name="Rigid 79" type="fixed">
+  <origin xyz="-0.021287 -0.005093 0.040308" rpy="0 0 0"/>
+  <parent link="right_elbow_bottom_1"/>
+  <child link="right_elbow_top_1"/>
+</joint>
+
+<joint name="right_dribble_revolute" type="continuous">
+  <origin xyz="0.005833 -0.006784 -0.021228" rpy="0 0 0"/>
+  <parent link="right_dribble_bracket_1"/>
+  <child link="right_dribble_ash_1"/>
+  <axis xyz="0.84132 -0.280416 0.462112"/>
+</joint>
+
+<joint name="Rigid 81" type="fixed">
+  <origin xyz="0.01792 -0.005972 0.009843" rpy="0 0 0"/>
+  <parent link="right_dribble_ash_1"/>
+  <child link="right_dribble_wheel_1"/>
+</joint>
+
+<joint name="Rigid 82" type="fixed">
+  <origin xyz="0.05168 -0.006275 0.008197" rpy="0 0 0"/>
+  <parent link="left_dribble__base_1"/>
+  <child link="left_elbow_bottom_1"/>
+</joint>
+
+<joint name="Rigid 83" type="fixed">
+  <origin xyz="-0.015924 0.01778 0.039167" rpy="0 0 0"/>
+  <parent link="left_elbow_bottom_1"/>
+  <child link="left_elbow_top_1"/>
+</joint>
+
+<joint name="Rigid 84" type="fixed">
+  <origin xyz="-0.002459 -0.001417 0.030859" rpy="0 0 0"/>
+  <parent link="left_elbow_top_1"/>
+  <child link="left_dribble_holder_1"/>
+</joint>
+
+<joint name="Rigid 85" type="fixed">
+  <origin xyz="-0.085071 -0.039964 0.018174" rpy="0 0 0"/>
+  <parent link="left_dribble_holder_1"/>
+  <child link="left_dribble_holder_bend_1"/>
+</joint>
+
+<joint name="Rigid 86" type="fixed">
+  <origin xyz="-0.003357 0.004287 -0.003454" rpy="0 0 0"/>
+  <parent link="left_dribble_holder_bend_1"/>
+  <child link="left_dribble_bracket_1"/>
+</joint>
+
+<joint name="Rigid 87" type="fixed">
+  <origin xyz="-0.001798 3.5e-05 -0.009228" rpy="0 0 0"/>
+  <parent link="left_dribble_bracket_1"/>
+  <child link="left_dribble_1"/>
+</joint>
+
+<joint name="left_dribble_revolute" type="continuous">
+  <origin xyz="-0.004769 0.003895 -0.012573" rpy="0 0 0"/>
+  <parent link="left_dribble_1"/>
+  <child link="left_dribble_ash_1"/>
+  <axis xyz="-0.426667 0.805456 0.411335"/>
+</joint>
+
+<joint name="right_dribble_rigid" type="fixed">
+  <origin xyz="-0.009088 0.017156 0.008762" rpy="0 0 0"/>
+  <parent link="left_dribble_ash_1"/>
+  <child link="left_dribble_wheel_1"/>
+</joint>
+
+<joint name="Rigid 90" type="fixed">
+  <origin xyz="0.159303 0.017565 0.002762" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="left_body_bottom_rear_1"/>
+</joint>
+
+<joint name="Rigid 91" type="fixed">
+  <origin xyz="0.118231 -0.194154 0.013296" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="left_body_bottom_front_1"/>
+</joint>
+
+<joint name="Rigid 92" type="fixed">
+  <origin xyz="0.001429 -4.3e-05 0.004709" rpy="0 0 0"/>
+  <parent link="left_body_bottom_rear_1"/>
+  <child link="left_body_1"/>
+</joint>
+
+<joint name="Rigid 93" type="fixed">
+  <origin xyz="-0.030975 -0.024956 0.156564" rpy="0 0 0"/>
+  <parent link="left_body_1"/>
+  <child link="left_body_rear_wing_1"/>
+</joint>
+
+<joint name="Rigid 94" type="fixed">
+  <origin xyz="-0.057795 -0.16321 0.163443" rpy="0 0 0"/>
+  <parent link="left_body_1"/>
+  <child link="left_body_front_wing_1"/>
+</joint>
+
+<joint name="Rigid 95" type="fixed">
+  <origin xyz="-0.068132 -0.081779 0.314714" rpy="0 0 0"/>
+  <parent link="left_body_1"/>
+  <child link="left_body_top_1"/>
+</joint>
+
+<joint name="Rigid 96" type="fixed">
+  <origin xyz="-0.121213 -0.079064 0.008188" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="front_body_bottom_right_1"/>
+</joint>
+
+<joint name="Rigid 97" type="fixed">
+  <origin xyz="0.042645 -0.221176 0.014807" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="front_body_bottom_left_1"/>
+</joint>
+
+<joint name="Rigid 98" type="fixed">
+  <origin xyz="-0.000936 -0.000858 0.004755" rpy="0 0 0"/>
+  <parent link="front_body_bottom_right_1"/>
+  <child link="front_body_1"/>
+</joint>
+
+<joint name="Rigid 99" type="fixed">
+  <origin xyz="0.045162 0.001271 0.155091" rpy="0 0 0"/>
+  <parent link="front_body_1"/>
+  <child link="front_body_left_wing_1"/>
+</joint>
+
+<joint name="Rigid 100" type="fixed">
+  <origin xyz="0.151632 -0.091069 0.159391" rpy="0 0 0"/>
+  <parent link="front_body_1"/>
+  <child link="front_body_right_wing_1"/>
+</joint>
+
+<joint name="Rigid 101" type="fixed">
+  <origin xyz="0.114865 -0.018742 0.311174" rpy="0 0 0"/>
+  <parent link="front_body_1"/>
+  <child link="front_body_top_1"/>
+</joint>
+
+<joint name="Rigid 102" type="fixed">
+  <origin xyz="-0.097315 -0.134003 0.229267" rpy="0 0 0"/>
+  <parent link="right_mid_pillar_1"/>
+  <child link="pc_body_1"/>
+</joint>
+
+<joint name="Rigid 103" type="fixed">
+  <origin xyz="0.099089 0.069788 0.00033" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="right_body_rear_bottom_1"/>
+</joint>
+
+<joint name="Rigid 104" type="fixed">
+  <origin xyz="-0.105027 -0.000524 0.004278" rpy="0 0 0"/>
+  <parent link="pc_body_1"/>
+  <child link="right_body_front_bottom_1"/>
+</joint>
+
+<joint name="Rigid 105" type="fixed">
+  <origin xyz="-0.00046 0.001596 0.004632" rpy="0 0 0"/>
+  <parent link="right_body_rear_bottom_1"/>
+  <child link="right_body_1"/>
+</joint>
+
+<joint name="Rigid 106" type="fixed">
+  <origin xyz="-0.160836 -0.073845 0.159281" rpy="0 0 0"/>
+  <parent link="right_body_1"/>
+  <child link="right_body_front_wing_1"/>
+</joint>
+
+<joint name="Rigid 107" type="fixed">
+  <origin xyz="-0.027546 -0.02793 0.156703" rpy="0 0 0"/>
+  <parent link="right_body_1"/>
+  <child link="right_body_rear_wing_1"/>
+</joint>
+
+<joint name="Rigid 108" type="fixed">
+  <origin xyz="-0.085815 -0.066443 0.314" rpy="0 0 0"/>
+  <parent link="right_body_1"/>
+  <child link="right_body_top_1"/>
+</joint>
+
+<joint name="Rigid 109" type="fixed">
+  <origin xyz="0.000387 0.010333 0.004199" rpy="0 0 0"/>
+  <parent link="left_body_top_1"/>
+  <child link="camera_disk_1"/>
+</joint>
+
+<joint name="Rigid 110" type="fixed">
+  <origin xyz="-0.030052 -0.024503 0.005284" rpy="0 0 0"/>
+  <parent link="camera_disk_1"/>
+  <child link="camera_holder_1"/>
+</joint>
+
+<joint name="Rigid 111" type="fixed">
+  <origin xyz="4.7e-05 0.000984 0.019975" rpy="0 0 0"/>
+  <parent link="camera_holder_1"/>
+  <child link="camera_bracket_1"/>
+</joint>
+
+<joint name="Rigid 112" type="fixed">
+  <origin xyz="-0.030347 0.02696 0.018767" rpy="0 0 0"/>
+  <parent link="camera_holder_1"/>
+  <child link="logitech_cam_1"/>
+</joint>
+
+<joint name="Rigid 113" type="fixed">
+  <origin xyz="7e-06 0.000148 0.002997" rpy="0 0 0"/>
+  <parent link="camera_bracket_1"/>
+  <child link="camera_bracket_2_1"/>
+</joint>
+
+<joint name="Rigid 114" type="fixed">
+  <origin xyz="-0.037711 -0.013202 0.002742" rpy="0 0 0"/>
+  <parent link="camera_bracket_2_1"/>
+  <child link="camera_bracket_3_1"/>
+</joint>
+
+<joint name="Rigid 115" type="fixed">
+  <origin xyz="1.1e-05 0.000246 0.004994" rpy="0 0 0"/>
+  <parent link="camera_bracket_3_1"/>
+  <child link="camera_bracket_4_1"/>
+</joint>
+
+<joint name="Rigid 116" type="fixed">
+  <origin xyz="0.007334 0.039522 0.00304" rpy="0 0 0"/>
+  <parent link="camera_bracket_4_1"/>
+  <child link="camera_lens_1"/>
+</joint>
+
+<joint name="Rigid 117" type="fixed">
+  <origin xyz="0.000173 0.003619 0.073411" rpy="0 0 0"/>
+  <parent link="camera_lens_1"/>
+  <child link="camera_lens_top_1"/>
+</joint>
+
+<joint name="Rigid 118" type="fixed">
+  <origin xyz="1e-05 0.000197 0.003995" rpy="0 0 0"/>
+  <parent link="camera_lens_top_1"/>
+  <child link="camera_mirror_1"/>
+</joint>
+
+<joint name="Rigid 119" type="fixed">
+  <origin xyz="0.000136 0.002831 0.05743" rpy="0 0 0"/>
+  <parent link="camera_mirror_1"/>
+  <child link="360_cam_1"/>
+</joint>
+
+<joint name="Rigid 120" type="fixed">
+  <origin xyz="0.000136 0.002831 0.05743" rpy="0 0 0"/>
+  <parent link="camera_mirror_1"/>
+  <child link="camera_top_cover_1"/>
+</joint>
+
+<joint name="Rigid 121" type="fixed">
+  <origin xyz="-0.046036 0.070768 0.006632" rpy="0 0 0"/>
+  <parent link="camera_holder_1"/>
+  <child link="camera_acrylic_1"/>
+</joint>
+
+<joint name="Rigid 122" type="fixed">
+  <origin xyz="0.062463 -0.043735 0.182228" rpy="0 0 0"/>
+  <parent link="camera_acrylic_1"/>
+  <child link="camera_outer_top_cover_1"/>
 </joint>
 
 </robot>

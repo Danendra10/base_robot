@@ -34,12 +34,56 @@
   </actuator>
 </transmission>
 
-<transmission name="Slider 56_tran">
+<transmission name="kicker_slider_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="Slider 56">
+  <joint name="kicker_slider">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="Slider 56_actr">
+  <actuator name="kicker_slider_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="kicker_height_slider_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="kicker_height_slider">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="kicker_height_slider_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="kicker_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="kicker_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="kicker_revolute_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="right_dribble_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="right_dribble_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="right_dribble_revolute_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="left_dribble_revolute_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="left_dribble_revolute">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="left_dribble_revolute_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

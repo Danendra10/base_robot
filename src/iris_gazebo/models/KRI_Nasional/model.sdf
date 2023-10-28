@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 <sdf version="1.6">
   <model name="KRI">
     <static>true</static>
@@ -23,7 +23,7 @@
       </collision>
 
       <visual name="carpet">
-        
+
         <geometry>
           <plane>
             <normal>0 0 1</normal>
@@ -40,8 +40,7 @@
       </visual>
 
 
-
-       <visual name="base1">
+      <visual name="base1">
         <pose>0 4.75 0 0 0 0</pose>
         <cast_shadows>false</cast_shadows>
         <geometry>
@@ -58,7 +57,7 @@
           </script>
         </material>
       </visual>
-      
+
       <visual name="base2">
         <pose>0 -4.75 0 0 0 0</pose>
         <cast_shadows>true</cast_shadows>
@@ -113,19 +112,23 @@
       </visual>
     </link>
 
-<!--GAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANG-->
+    <!--GAWAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAANG-->
 
 
     <link name="left_post">
       <pose>-6 1 0.5 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -141,12 +144,16 @@
       <pose>-6 -1 0.5 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -161,12 +168,16 @@
       <pose>-6 0 1.0625 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 2.125 0.125</size></box>
+          <box>
+            <size>0.125 2.125 0.125</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 2.125 0.125</size></box>
+          <box>
+            <size>0.125 2.125 0.125</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -176,17 +187,21 @@
         </material>
       </visual>
     </link>
-    
+
     <link name="left_support_horiz_lower">
       <pose>-6.25 1 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -201,12 +216,16 @@
       <pose>-6.25 -1 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -216,17 +235,21 @@
         </material>
       </visual>
     </link>
-    
-        <link name="center_support_horiz_lower">
+
+    <link name="center_support_horiz_lower">
       <pose>-6.55 0 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.10 2 0.4</size></box>
+          <box>
+            <size>0.10 2 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.10 2 0.4</size></box>
+          <box>
+            <size>0.10 2 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -236,17 +259,21 @@
         </material>
       </visual>
     </link>
-    
+
     <link name="center_net">
       <pose>-6.5 0 0.7625 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.01 2.125 0.725</size></box>
+          <box>
+            <size>0.01 2.125 0.725</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.01 2.125 0.725</size></box>
+          <box>
+            <size>0.01 2.125 0.725</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -312,13 +339,17 @@
       <pose>-6.25 0 1.125 0 0 0</pose>
       <collision name='collision'>
         <geometry>
-          <box><size>0.5 2.125 0.01</size></box>
+          <box>
+            <size>0.5 2.125 0.01</size>
+          </box>
         </geometry>
         <max_contacts>10</max_contacts>
       </collision>
       <visual name='visual'>
         <geometry>
-          <box><size>0.5 2.125 0.01</size></box>
+          <box>
+            <size>0.5 2.125 0.01</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -329,19 +360,23 @@
         </material>
       </visual>
     </link>
-<!--Gawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaang-->
+    <!--Gawaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaang-->
 
 
- <link name="left_post_2">
+    <link name="left_post_2">
       <pose>6 1 0.5 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -357,12 +392,16 @@
       <pose>6 -1 0.5 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 0.125 1.0</size></box>
+          <box>
+            <size>0.125 0.125 1.0</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -377,12 +416,16 @@
       <pose>6 0 1.0625 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 2.125 0.125</size></box>
+          <box>
+            <size>0.125 2.125 0.125</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 2.125 0.125</size></box>
+          <box>
+            <size>0.125 2.125 0.125</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -392,17 +435,21 @@
         </material>
       </visual>
     </link>
-    
+
     <link name="left_support_horiz_lower_2">
       <pose>6.25 1 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -417,12 +464,16 @@
       <pose>6.25 -1 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.5 0.125 0.4</size></box>
+          <box>
+            <size>0.5 0.125 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -432,17 +483,21 @@
         </material>
       </visual>
     </link>
-    
-        <link name="center_support_horiz_lower_2">
+
+    <link name="center_support_horiz_lower_2">
       <pose>6.55 0 0.2 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.10 2 0.4</size></box>
+          <box>
+            <size>0.10 2 0.4</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.10 2 0.4</size></box>
+          <box>
+            <size>0.10 2 0.4</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -452,20 +507,22 @@
         </material>
       </visual>
     </link>
-    
 
 
-    
     <link name="center_net_2">
       <pose>6.5 0 0.7625 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.01 2.125 0.725</size></box>
+          <box>
+            <size>0.01 2.125 0.725</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.01 2.125 0.725</size></box>
+          <box>
+            <size>0.01 2.125 0.725</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -531,13 +588,17 @@
       <pose>6.25 0 1.125 0 0 0</pose>
       <collision name='collision'>
         <geometry>
-          <box><size>0.5 2.125 0.01</size></box>
+          <box>
+            <size>0.5 2.125 0.01</size>
+          </box>
         </geometry>
         <max_contacts>10</max_contacts>
       </collision>
       <visual name='visual'>
         <geometry>
-          <box><size>0.5 2.125 0.01</size></box>
+          <box>
+            <size>0.5 2.125 0.01</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -548,18 +609,22 @@
         </material>
       </visual>
     </link>
-    
+
     <!--KANDANG-->
     <link name="kandang_left">
       <pose>0 5.5 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>15 0.125 0.7</size></box>
+          <box>
+            <size>15 0.125 0.7</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>15 0.125 0.7</size></box>
+          <box>
+            <size>15 0.125 0.7</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -574,12 +639,16 @@
       <pose>0 -5.5 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>15 0.125 0.7</size></box>
+          <box>
+            <size>15 0.125 0.7</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>15 0.125 0.7</size></box>
+          <box>
+            <size>15 0.125 0.7</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -594,12 +663,16 @@
       <pose>-7.5 0 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 11.125 0.7</size></box>
+          <box>
+            <size>0.125 11.125 0.7</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 11.125 0.7</size></box>
+          <box>
+            <size>0.125 11.125 0.7</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -614,12 +687,16 @@
       <pose>7.5 0 0 0 0 0</pose>
       <collision name="collision">
         <geometry>
-          <box><size>0.125 11.125 0.7</size></box>
+          <box>
+            <size>0.125 11.125 0.7</size>
+          </box>
         </geometry>
       </collision>
       <visual name="visual">
         <geometry>
-          <box><size>0.125 11.125 0.7</size></box>
+          <box>
+            <size>0.125 11.125 0.7</size>
+          </box>
         </geometry>
         <material>
           <script>
@@ -630,39 +707,39 @@
       </visual>
     </link>
 
-<!-- KAMERA -->
-<link name="kamera">
-    <pose> 0 -11 12 0 0.9 1.568 </pose>
-     <sensor name="camera" type="camera">
-          <camera>
-            <image>
-              <width>1280</width>
-              <height>720</height>
-              <format>R8G8B8</format>
-            </image>
-            <near>0.55</near>
-            <far>2.5</far>
-            <horizontal_fov>1.05</horizontal_fov>
-            <!-- <aspect_ratio>1.8</aspect_ratio> -->
-          </camera>
+    <!-- KAMERA -->
+    <!-- <link name="logitech_cam">
+      <pose> 0 -11 12 0 0.9 1.568 </pose>
+      <sensor name="camera" type="camera">
+        <camera>
+          <image>
+            <width>1280</width>
+            <height>720</height>
+            <format>R8G8B8</format>
+          </image>
+          <near>0.55</near>
+          <far>2.5</far>
+          <horizontal_fov>1.05</horizontal_fov>
+          <aspect_ratio>1.8</aspect_ratio>
+        </camera>
 
-          <!-- <visualize>true</visualize> -->
-          <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
-        <alwaysOn>true</alwaysOn>
-        <updateRate>50.0</updateRate>
-        <cameraName>gazebo</cameraName>
-        <imageTopicName>image_raw</imageTopicName>
-        <cameraInfoTopicName>camera_info</cameraInfoTopicName>
-        <frameName>camera</frameName>
-        <hackBaseline>0.07</hackBaseline>
-        <distortionK1>0.0</distortionK1>
-        <distortionK2>0.0</distortionK2>
-        <distortionK3>0.0</distortionK3>
-        <distortionT1>0.0</distortionT1>
-        <distortionT2>0.0</distortionT2>
-      </plugin>
-        </sensor>
-        </link>
+        <visualize>true</visualize>
+        <plugin name="camera_controller" filename="libgazebo_ros_camera.so">
+          <alwaysOn>true</alwaysOn>
+          <updateRate>50.0</updateRate>
+          <cameraName>gazebo</cameraName>
+          <imageTopicName>image_raw</imageTopicName>
+          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+          <frameName>camera</frameName>
+          <hackBaseline>0.07</hackBaseline>
+          <distortionK1>0.0</distortionK1>
+          <distortionK2>0.0</distortionK2>
+          <distortionK3>0.0</distortionK3>
+          <distortionT1>0.0</distortionT1>
+          <distortionT2>0.0</distortionT2>
+        </plugin>
+      </sensor>
+    </link> -->
 
   </model>
 </sdf>
